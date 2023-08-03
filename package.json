@@ -1,0 +1,20 @@
+{
+  "name": "508-cns-data",
+  "version": "0.1.0",
+  "description": "Section 508 data for CNS",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dirh": "cd reports; tree . -L 2 -H . > index.html",
+    "dirj": "cd reports; tree . -L 2 -J  > index.json",
+    "testm": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.americorps.gov --mobile  --output-path reports/mobile/$TODAY ",
+    "testd": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.americorps.gov --desktop --output-path reports/desktop/$TODAY ",
+    "json": "node json.js",
+    "test":  "npm run testm; npm run testd; npm run json"
+  },
+  "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "walker": "^1.0.8"
+  }
+}

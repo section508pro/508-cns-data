@@ -1,4 +1,4 @@
-name: CI
+name: Mobile
 on:
   push:
     branches: [ "main" ]
@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
   workflow_dispatch:  
   schedule:
-    - cron: '00 08 * * *'  # At 08:00 every day. (2am Denver time) 
+    - cron: '00 08 * * *'  # At 08:00 UTC every day. (2am Denver time) 
   
 jobs:
   build:

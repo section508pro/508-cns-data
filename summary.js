@@ -17,6 +17,7 @@ function buildJson(type){
     .on('end', ()=>{
         try{
             fs.writeFileSync(`reports/${type}/index.json`, JSON.stringify(dates));
+            console.log(`reports/${type}/index.json`);
         }catch(err){
             console.error(err);
         }        

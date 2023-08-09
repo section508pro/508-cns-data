@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-84-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 810,
+              "left": 15,
+              "right": 348,
+              "width": 333,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/low-income-americans-receive-record-84-million-tax…\" hreflang=\"en\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-219-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 558,
+                    "bottom": 1278,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 721
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Featured News\nLow-Income Americans Receive Record $84 Million in Tax Relief in …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-220-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 886,
+              "bottom": 902,
+              "left": 15,
+              "right": 117,
+              "width": 102,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 20, 2024",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-219-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 558,
+                    "bottom": 1278,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 721
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Featured News\nLow-Income Americans Receive Record $84 Million in Tax Relief in …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-85-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 978,
+              "bottom": 1060,
+              "left": 15,
+              "right": 360,
+              "width": 345,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/nevada-receives-7-million-americorps-investment-la…\" hreflang=\"en\">",
+            "nodeLabel": "Nevada Receives $7 Million AmeriCorps Investment, Las Vegas Volunteer Service C…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-219-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 558,
+                    "bottom": 1278,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 721
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Featured News\nLow-Income Americans Receive Record $84 Million in Tax Relief in …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-221-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 1136,
+              "bottom": 1152,
+              "left": 15,
+              "right": 108,
+              "width": 93,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 3, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-219-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 558,
+                    "bottom": 1278,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 721
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Featured News\nLow-Income Americans Receive Record $84 Million in Tax Relief in …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 1437,
+              "bottom": 1519,
+              "left": 15,
+              "right": 348,
+              "width": 333,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/low-income-americans-receive-record-84-million-tax…\" hreflang=\"en\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-223-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 1599,
+              "bottom": 1615,
+              "left": 15,
+              "right": 117,
+              "width": 102,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 20, 2024",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-87-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 1691,
+              "bottom": 1801,
+              "left": 15,
+              "right": 392,
+              "width": 377,
+              "height": 110
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-announces-millions-funding-student-cons…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Announces Millions in Funding for Student Conservation Association, …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-224-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 1877,
+              "bottom": 1893,
+              "left": 15,
+              "right": 114,
+              "width": 99,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 31, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-88-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 1969,
+              "bottom": 2106,
+              "left": 15,
+              "right": 360,
+              "width": 345,
+              "height": 138
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-members-student-conservation-associatio…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Members at Student Conservation Association Honored with President’s…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-225-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 2182,
+              "bottom": 2198,
+              "left": 15,
+              "right": 114,
+              "width": 99,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 18, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-89-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 2274,
+              "bottom": 2357,
+              "left": 15,
+              "right": 374,
+              "width": 359,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-expands-opportunities-students-increase…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Expands Opportunities for Students, Increases Flexibility for Educat…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-226-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 2436,
+              "bottom": 2452,
+              "left": 15,
+              "right": 112,
+              "width": 97,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 17, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-90-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 2528,
+              "bottom": 2611,
+              "left": 15,
+              "right": 395,
+              "width": 380,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/military-veterans-family-members-awarded-president…\" hreflang=\"en\">",
+            "nodeLabel": "Military Veterans and Family Members Awarded President’s Volunteer Service Awar…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-227-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 2690,
+              "bottom": 2706,
+              "left": 15,
+              "right": 108,
+              "width": 93,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 6, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-91-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 2782,
+              "bottom": 2865,
+              "left": 15,
+              "right": 393,
+              "width": 378,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/long-time-nevada-volunteer-honored-presidents-volu…\" hreflang=\"en\">",
+            "nodeLabel": "Long Time Nevada Volunteer Honored with President’s Volunteer Service Award",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-228-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 2944,
+              "bottom": 2960,
+              "left": 15,
+              "right": 108,
+              "width": 93,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 6, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-92-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 3036,
+              "bottom": 3146,
+              "left": 15,
+              "right": 361,
+              "width": 346,
+              "height": 110
+            },
+            "snippet": "<a href=\"/newsroom/press-release/nevada-michigan-americorps-announced-millions-new-…\" hreflang=\"en\">",
+            "nodeLabel": "From Nevada to Michigan, AmeriCorps Announced Millions in New Investments and H…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-229-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 3222,
+              "bottom": 3238,
+              "left": 15,
+              "right": 107,
+              "width": 92,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 5, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-93-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 3314,
+              "bottom": 3397,
+              "left": 15,
+              "right": 360,
+              "width": 345,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/nevada-receives-7-million-americorps-investment-la…\" hreflang=\"en\">",
+            "nodeLabel": "Nevada Receives $7 Million AmeriCorps Investment, Las Vegas Volunteer Service C…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-230-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 3476,
+              "bottom": 3492,
+              "left": 15,
+              "right": 108,
+              "width": 93,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 3, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-94-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 3568,
+              "bottom": 3678,
+              "left": 15,
+              "right": 372,
+              "width": 357,
+              "height": 110
+            },
+            "snippet": "<a href=\"/newsroom/speech/remarks-prepared-delivery-ceo-michael-d-smith-june-2023-a…\" hreflang=\"en\">",
+            "nodeLabel": "Remarks as Prepared for Delivery by CEO Michael D. Smith at the June 2023 Ameri…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-231-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 3754,
+              "bottom": 3770,
+              "left": 15,
+              "right": 120,
+              "width": 105,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JUNE 29, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-95-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,9,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 3846,
+              "bottom": 3956,
+              "left": 15,
+              "right": 388,
+              "width": 373,
+              "height": 110
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-invests-more-7-million-advance-equity-o…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Invests More Than $7 Million to Advance Equity and Opportunity for A…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-232-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,9,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 4032,
+              "bottom": 4048,
+              "left": 15,
+              "right": 117,
+              "width": 102,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JUNE 21, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-96-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,10,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 4124,
+              "bottom": 4207,
+              "left": 15,
+              "right": 367,
+              "width": 352,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-invests-155-million-michigan-improve-ed…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Invests $15.5 Million in Michigan to Improve Education and Health Eq…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-233-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,10,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 4286,
+              "bottom": 4302,
+              "left": 15,
+              "right": 111,
+              "width": 96,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JUNE 8, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-97-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,11,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 4378,
+              "bottom": 4488,
+              "left": 15,
+              "right": 389,
+              "width": 374,
+              "height": 110
+            },
+            "snippet": "<a href=\"/newsroom/press-release/response-president-bidens-call-americorps-service-…\" hreflang=\"en\">",
+            "nodeLabel": "In Response to President Biden’s Call, AmeriCorps and Service Year Alliance Ann…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-234-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,11,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 4564,
+              "bottom": 4580,
+              "left": 15,
+              "right": 111,
+              "width": 96,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JUNE 2, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f9f9fa, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1278,
+                    "bottom": 4892,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3614
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 28
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-235-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.card > div.content > div.views-field > h4.field-content",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 810,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 83
+            },
+            "snippet": "<h4 class=\"field-content\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

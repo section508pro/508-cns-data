@@ -8,7 +8,7 @@
     "testm": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.americorps.gov --mobile  --output-path reports/mobile/$TODAY ",
     "testd": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.americorps.gov --desktop --output-path reports/desktop/$TODAY ",
     "summary": "node summary.js",
-    "test":  "npm run testm; npm run testd; npm run json"
+    "test":  "npm run testm; npm run testd; npm run summary"
   },
   "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
   "license": "CC-BY-4.0",

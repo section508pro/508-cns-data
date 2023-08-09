@@ -1,0 +1,152 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-206-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,IMG",
+            "selector": "div.col-lg-12 > div.field > h3 > img",
+            "boundingRect": {
+              "top": 910,
+              "bottom": 1015,
+              "left": 292,
+              "right": 397,
+              "width": 105,
+              "height": 105
+            },
+            "snippet": "<img src=\"/sites/default/files/image/disaster-response.png\" style=\"float:right; margin-left:2%;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > h3 > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-207-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,IMG",
+            "selector": "div.col-lg-12 > div.field > h3 > img",
+            "boundingRect": {
+              "top": 1191,
+              "bottom": 1296,
+              "left": 290,
+              "right": 397,
+              "width": 107,
+              "height": 105
+            },
+            "snippet": "<img src=\"/sites/default/files/image/economic-opportunity.png\" style=\"float:right;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > h3 > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-208-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,IMG",
+            "selector": "div.col-lg-12 > div.field > h3 > img",
+            "boundingRect": {
+              "top": 1497,
+              "bottom": 1602,
+              "left": 278,
+              "right": 397,
+              "width": 119,
+              "height": 105
+            },
+            "snippet": "<img src=\"/sites/default/files/image/education.png\" style=\"float:right; margin-left:2%;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > h3 > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-209-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,IMG",
+            "selector": "div.col-lg-12 > div.field > h3 > img",
+            "boundingRect": {
+              "top": 1802,
+              "bottom": 1907,
+              "left": 292,
+              "right": 397,
+              "width": 105,
+              "height": 105
+            },
+            "snippet": "<img src=\"/sites/default/files/image/environmental-stewardship.png\" style=\"float:right; margin-left:2%;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > h3 > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-210-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,IMG",
+            "selector": "div.col-lg-12 > div.field > h3 > img",
+            "boundingRect": {
+              "top": 2159,
+              "bottom": 2264,
+              "left": 302,
+              "right": 397,
+              "width": 95,
+              "height": 105
+            },
+            "snippet": "<img src=\"/sites/default/files/image/healthy-futures.png\" style=\"float:right; margin-left:2%;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > h3 > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-211-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,IMG",
+            "selector": "div.col-lg-12 > div.field > h3 > img",
+            "boundingRect": {
+              "top": 2416,
+              "bottom": 2521,
+              "left": 311,
+              "right": 397,
+              "width": 86,
+              "height": 105
+            },
+            "snippet": "<img src=\"/sites/default/files/image/veterans-military-families.png\" style=\"float:right; margin-left:2%;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > h3 > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

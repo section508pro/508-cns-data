@@ -1,0 +1,127 @@
+[
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-211-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "boundingRect": {
+              "top": 6039,
+              "bottom": 6254,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 215
+            },
+            "snippet": "<iframe width=\"854\" height=\"480\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/CYLeup1J_gk?autoplay=0&amp;start=0&amp;rel=0\">",
+            "nodeLabel": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-212-H6",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,H6",
+            "selector": "div.row > div.col-lg-12 > div.field > h6",
+            "boundingRect": {
+              "top": 6288,
+              "bottom": 6342,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 54
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "The above video may include external links to YouTube’s video platform. YouTube…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-213-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.card > div.content > div.views-field > h4.field-content",
+            "boundingRect": {
+              "top": 9889,
+              "bottom": 9972,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 83
+            },
+            "snippet": "<h4 class=\"field-content\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

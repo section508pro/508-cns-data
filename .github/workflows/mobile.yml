@@ -1,9 +1,5 @@
 name: Mobile
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
   workflow_dispatch:  
   schedule:
     - cron: '00 08 * * *'  # At 08:00 UTC every day. (2am Denver time) 

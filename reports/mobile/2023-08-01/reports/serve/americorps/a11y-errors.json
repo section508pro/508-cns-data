@@ -1,0 +1,170 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-200-P",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,P",
+            "selector": "div.container > div.row > div.col-12 > p.quote",
+            "boundingRect": {
+              "top": 5720,
+              "bottom": 6245,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 525
+            },
+            "snippet": "<p class=\"quote q h2\">",
+            "nodeLabel": "As a VISTA, I am able utilize my skills to serve underrepresented people while …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.03 (foreground color: #e3eafd, background color: #e8eefd, font size: 26.3pt (35px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-201-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV",
+                  "selector": "article > div > div.field > div.story",
+                  "boundingRect": {
+                    "top": 5670,
+                    "bottom": 6424,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 753
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth lightblue\">",
+                  "nodeLabel": "As a VISTA, I am able utilize my skills to serve underrepresented people while …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-202-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,1,DIV,0,A,0,SPAN,0,SPAN",
+            "selector": "div.col-8 > a.aos-init > span.normal > span.name",
+            "boundingRect": {
+              "top": 6306,
+              "bottom": 6360,
+              "left": 15,
+              "right": 260,
+              "width": 245,
+              "height": 53
+            },
+            "snippet": "<span class=\"name h3\">",
+            "nodeLabel": "Anita Jones, Americorps Alumnus",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #e3e9f8, background color: #e8eefd, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-201-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV",
+                  "selector": "article > div > div.field > div.story",
+                  "boundingRect": {
+                    "top": 5670,
+                    "bottom": 6424,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 753
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth lightblue\">",
+                  "nodeLabel": "As a VISTA, I am able utilize my skills to serve underrepresented people while …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-203-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.row > div.col-lg-12 > div.field > h3",
+            "boundingRect": {
+              "top": 1054,
+              "bottom": 1081,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 27
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Who can serve?",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

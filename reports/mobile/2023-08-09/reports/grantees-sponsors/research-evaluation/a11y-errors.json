@@ -1,0 +1,338 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-90-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 2924,
+              "bottom": 2964,
+              "left": 49,
+              "right": 300,
+              "width": 251,
+              "height": 40
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/2022-TC-national-s…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "*2022 National Service and Civic Engagement Terms and Conditions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-225-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 2890,
+                    "bottom": 3012,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 122
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "*2022 National Service and Civic Engagement Terms and Conditions"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-91-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 3080,
+              "bottom": 3100,
+              "left": 49,
+              "right": 324,
+              "width": 275,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/FY2022-General-Ter…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "*General Terms and Conditions (2022)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-226-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3046,
+                    "bottom": 3248,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 202
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "*General Terms and Conditions (2022)\nPlease ensure you are using the correct Ge…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-92-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 3316,
+              "bottom": 3336,
+              "left": 49,
+              "right": 324,
+              "width": 275,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/FY2023-General-Ter…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "*General Terms and Conditions (2023)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-227-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3282,
+                    "bottom": 3384,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 102
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "*General Terms and Conditions (2023)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-93-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 3452,
+              "bottom": 3492,
+              "left": 49,
+              "right": 300,
+              "width": 251,
+              "height": 40
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/2015%20National%20…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "2015 National Service and Civic Engagement Terms and Conditions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-228-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3418,
+                    "bottom": 3540,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 122
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "2015 National Service and Civic Engagement Terms and Conditions"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-94-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 3608,
+              "bottom": 3648,
+              "left": 49,
+              "right": 319,
+              "width": 270,
+              "height": 40
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/2017_11_15_2015Res…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "2015 Research Competition Awardee Executive Summaries",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-229-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3574,
+                    "bottom": 3696,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 122
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "2015 Research Competition Awardee Executive Summaries"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-95-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 3764,
+              "bottom": 3804,
+              "left": 49,
+              "right": 300,
+              "width": 251,
+              "height": 40
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/2016%20National%20…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "2016 National Service and Civic Engagement Terms and Conditions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-230-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3730,
+                    "bottom": 3852,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 122
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "2016 National Service and Civic Engagement Terms and Conditions"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-231-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,NAV,0,H4",
+            "selector": "div > div.view > nav > h4#pagination-heading",
+            "boundingRect": {
+              "top": 3966,
+              "bottom": 3967,
+              "left": 15,
+              "right": 16,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<h4 id=\"pagination-heading\" class=\"visually-hidden\">",
+            "nodeLabel": "Pagination",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

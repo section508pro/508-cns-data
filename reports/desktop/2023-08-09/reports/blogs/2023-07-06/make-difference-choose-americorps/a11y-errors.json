@@ -1,0 +1,366 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "33-208-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SPAN",
+            "selector": "div.content > article > div > span.blog-post-date",
+            "boundingRect": {
+              "top": 994,
+              "bottom": 1012,
+              "left": 320,
+              "right": 1030,
+              "width": 710,
+              "height": 18
+            },
+            "snippet": "<span class=\"blog-post-date\">",
+            "nodeLabel": "Jul 06, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "33-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373771",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 8186,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 8186
+                  },
+                  "snippet": "<body class=\"page-node-373771 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373771"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "33-210-EM",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,5,FIGURE,1,FIGCAPTION,0,EM",
+            "selector": "div.field > figure.align-center > figcaption > em",
+            "boundingRect": {
+              "top": 2091,
+              "bottom": 2109,
+              "left": 320,
+              "right": 978,
+              "width": 658,
+              "height": 18
+            },
+            "snippet": "<em>",
+            "nodeLabel": "AmeriCorps members serve in FEMA Corps program, support disaster recovery effor…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "33-209-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373771",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 8186,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 8186
+                  },
+                  "snippet": "<body class=\"page-node-373771 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373771"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "33-85-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,24,BLOCKQUOTE,3,DIV,0,DIV,0,A",
+            "selector": "blockquote.instagram-media > div > div > a",
+            "boundingRect": {
+              "top": 4613,
+              "bottom": 4631,
+              "left": 321,
+              "right": 501,
+              "width": 180,
+              "height": 18
+            },
+            "snippet": "<a href=\"https://www.instagram.com/reel/CsZoHCWv4iY/?utm_source=ig_embed&amp;amp;utm_ca…\" style=\"background: rgb(255, 255, 255); line-height: 0; padding: 0px; text-align: center;\" target=\"_blank\">",
+            "nodeLabel": "View this post on Instagram",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.06 (foreground color: #3897f0, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "33-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,24,BLOCKQUOTE,7,P,0,A",
+            "selector": "div.field > blockquote.instagram-media > p > a",
+            "boundingRect": {
+              "top": 4914,
+              "bottom": 4930,
+              "left": 452,
+              "right": 730,
+              "width": 278,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://www.instagram.com/reel/CsZoHCWv4iY/?utm_source=ig_embed&amp;amp;utm_ca…\" style=\"color: rgb(201, 200, 205); font-family: Arial, sans-serif; font-size: 14px;\" target=\"_blank\">",
+            "nodeLabel": "A post shared by AmeriCorps (@americorps)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.66 (foreground color: #c9c8cd, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "33-211-BLOCKQUOTE",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,24,BLOCKQUOTE",
+                  "selector": "article > div > div.field > blockquote.instagram-media",
+                  "boundingRect": {
+                    "top": 4278,
+                    "bottom": 4938,
+                    "left": 321,
+                    "right": 861,
+                    "width": 540,
+                    "height": 660
+                  },
+                  "snippet": "<blockquote class=\"instagram-media\" data-instgrm-captioned=\"\" data-instgrm-permalink=\"https://www.instagram.com/reel/CsZoHCWv4iY/?utm_source=ig_embed&amp;amp;utm_ca…\" data-instgrm-version=\"14\" style=\"background: rgb(255, 255, 255); border: 0px; border-radius: 3px;\">",
+                  "nodeLabel": " \n \n \n \nView this post on Instagram\n \n \n \n \n \n \n \n \n \n \n \n\nA post shared by Ame…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "33-212-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,18,P,0,IFRAME",
+            "selector": "div > div.field > p > iframe",
+            "boundingRect": {
+              "top": 3502,
+              "bottom": 3816,
+              "left": 320,
+              "right": 880,
+              "width": 560,
+              "height": 314
+            },
+            "snippet": "<iframe allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowfullscreen=\"true\" frameborder=\"0\" height=\"314\" scrolling=\"no\" src=\"https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fw…\" style=\"border:none;overflow:hidden\" width=\"560\">",
+            "nodeLabel": "div > div.field > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "33-84-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,24,BLOCKQUOTE,2,DIV,0,A",
+            "selector": "div.field > blockquote.instagram-media > div > a",
+            "boundingRect": {
+              "top": 4556,
+              "bottom": 4576,
+              "left": 566,
+              "right": 616,
+              "width": 50,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://www.instagram.com/reel/CsZoHCWv4iY/?utm_source=ig_embed&amp;amp;utm_ca…\" style=\"background: rgb(255, 255, 255); line-height: 0; padding: 0px; text-align: center;\" target=\"_blank\">",
+            "nodeLabel": "div.field > blockquote.instagram-media > div > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "33-213-UL",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL",
+            "selector": "nav.navbar > div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav",
+            "boundingRect": {
+              "top": 34,
+              "bottom": 123,
+              "left": 304,
+              "right": 979,
+              "width": 675,
+              "height": 89
+            },
+            "snippet": "<ul class=\"navbar-nav\">",
+            "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "33-214-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav > div.menu-region",
+                  "boundingRect": {
+                    "top": 34,
+                    "bottom": 123,
+                    "left": 304,
+                    "right": 979,
+                    "width": 675,
+                    "height": 89
+                  },
+                  "snippet": "<div class=\"menu-region\">",
+                  "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

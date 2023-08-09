@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run Lighthouse
+      - name: Summarize Lighthouse audit data
         run: |
           npm install
           npm run summary

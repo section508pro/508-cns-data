@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "rollup": "node rollup.js",
     "testm": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.americorps.gov --mobile  --output-path reports/mobile/$TODAY ",
     "testd": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.americorps.gov --desktop --output-path reports/desktop/$TODAY ",
     "summary": "node summary.js",

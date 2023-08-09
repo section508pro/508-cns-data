@@ -97,9 +97,13 @@ function buildRollupJson(type){
                     //sort by errorCount, largest to smallest
                     let condensedSorted = new Map([...condensed.entries()].sort((a,b) => b[1] - a[1]));
 
+                    // convert to array
+                    // let sorted = Array.from(condensedSorted, ([name, value]) => ({ name, value }));
+                    
                     //write to file
-                    fs.writeFileSync(`./reports/${type}/${date}/summary.json`, JSON.stringify(Object.fromEntries(condensedSorted), null, 2));
-                    console.log(`./reports/${type}/${date}/summary.json`);                    
+                    // fs.writeFileSync(`./reports/${type}/${date}/summary.json`, JSON.stringify(sorted, null, 2));
+                    fs.writeFileSync(`./reports/${type}/${date}/errors-summary-lighthouse.json`, JSON.stringify(Object.fromEntries(condensedSorted), null, 2));
+                    console.log(`./reports/${type}/${date}/errors-summary-lighthouse.json`);                    
                 }catch(err){
                     console.error(err);
                 }        

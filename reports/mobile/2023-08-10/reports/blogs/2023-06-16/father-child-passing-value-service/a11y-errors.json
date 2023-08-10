@@ -1,0 +1,119 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-204-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SPAN",
+            "selector": "div.content > article > div > span.blog-post-date",
+            "boundingRect": {
+              "top": 1229,
+              "bottom": 1247,
+              "left": 30,
+              "right": 382,
+              "width": 352,
+              "height": 18
+            },
+            "snippet": "<span class=\"blog-post-date\">",
+            "nodeLabel": "Jun 16, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-205-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373676",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 7224,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 7224
+                  },
+                  "snippet": "<body class=\"page-node-373676 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373676"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-206-FIGCAPTION",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,6,FIGURE,1,FIGCAPTION",
+            "selector": "div > div.field > figure.align-center > figcaption",
+            "boundingRect": {
+              "top": 2992,
+              "bottom": 3010,
+              "left": 30,
+              "right": 382,
+              "width": 352,
+              "height": 18
+            },
+            "snippet": "<figcaption>",
+            "nodeLabel": "Nathaniel with his family.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-205-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373676",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 7224,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 7224
+                  },
+                  "snippet": "<body class=\"page-node-373676 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373676"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

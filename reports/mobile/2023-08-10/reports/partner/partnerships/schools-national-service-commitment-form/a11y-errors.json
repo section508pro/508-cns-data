@@ -1,0 +1,188 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu > a.parent-link",
+            "boundingRect": {
+              "top": 579,
+              "bottom": 597,
+              "left": 60,
+              "right": 191,
+              "width": 131,
+              "height": 18
+            },
+            "snippet": "<a href=\"/partner/partnerships\" class=\"parent-link\">",
+            "nodeLabel": "PARTNERSHIPS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.3 (foreground color: #007bff, background color: #e3eafd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-248-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu",
+                  "boundingRect": {
+                    "top": 552,
+                    "bottom": 622,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 70
+                  },
+                  "snippet": "<div class=\"tertiary-sidebar\" id=\"block-americorpsrelatedcontentmenu\">",
+                  "nodeLabel": "PARTNERSHIPS"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-249-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-199936",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 10982,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 10982
+                  },
+                  "snippet": "<body class=\"page-node-199936 path-node node--type-tertiary-page d-theme-preceded\" data-once=\"form-single-submit detailsAria\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-199936"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-97-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,FORM,10,DETAILS,6,DIV,0,A",
+            "selector": "form#webform-submission-schools-of-service-commitment-fo-paragraph-9091-add-form > details#captcha > div.reload-captcha-wrapper > a.reload-captcha",
+            "boundingRect": {
+              "top": 8024,
+              "bottom": 8044,
+              "left": 45,
+              "right": 174,
+              "width": 129,
+              "height": 20
+            },
+            "snippet": "<a href=\"/image-captcha-refresh/webform_submission_schools_of_service_commitment_fo…\" class=\"reload-captcha\">",
+            "nodeLabel": "Get new captcha!",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-249-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-199936",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 10982,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 10982
+                  },
+                  "snippet": "<body class=\"page-node-199936 path-node node--type-tertiary-page d-theme-preceded\" data-once=\"form-single-submit detailsAria\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-199936"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-250-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,FORM,5,DIV,0,H3",
+            "selector": "div.field > form#webform-submission-schools-of-service-commitment-fo-paragraph-9091-add-form > div#edit-markup-01 > h3",
+            "boundingRect": {
+              "top": 5349,
+              "bottom": 5376,
+              "left": 45,
+              "right": 367,
+              "width": 322,
+              "height": 27
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Section II: Commitment Level",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

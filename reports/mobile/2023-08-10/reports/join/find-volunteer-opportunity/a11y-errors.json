@@ -1,0 +1,202 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-196-B",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H1,0,B",
+            "selector": "div.left-section > div.zip-code-container > h1 > b",
+            "boundingRect": {
+              "top": 749,
+              "bottom": 796,
+              "left": 82,
+              "right": 182,
+              "width": 100,
+              "height": 47
+            },
+            "snippet": "<b data-v-62e83dd2=\"\">",
+            "nodeLabel": "Serve",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.63 (foreground color: #00b3a4, background color: #ffffff, font size: 30.0pt (40px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-197-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div#app > div.vm-zip-code-view-container > div.left-section > div.zip-code-container",
+                  "boundingRect": {
+                    "top": 720,
+                    "bottom": 1140,
+                    "left": 48,
+                    "right": 364,
+                    "width": 317,
+                    "height": 420
+                  },
+                  "snippet": "<div data-v-62e83dd2=\"\" class=\"zip-code-container\">",
+                  "nodeLabel": "Serve With Us\nFor decades, we have worked to make service to others an indispen…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-198-H5",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,H5",
+            "selector": "div.vm-zip-code-view-container > div.left-section > div.zip-code-container > h5",
+            "boundingRect": {
+              "top": 826,
+              "bottom": 926,
+              "left": 58,
+              "right": 354,
+              "width": 297,
+              "height": 100
+            },
+            "snippet": "<h5 data-v-62e83dd2=\"\">",
+            "nodeLabel": "For decades, we have worked to make service to others an indispensable part of …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-199-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,P,1,IMG",
+            "selector": "div.left-section > div.powered-container > p > img",
+            "boundingRect": {
+              "top": 1576,
+              "bottom": 1602,
+              "left": 122,
+              "right": 267,
+              "width": 145,
+              "height": 26
+            },
+            "snippet": "<img data-v-62e83dd2=\"\" src=\"/sites/default/files/images/volunteer_opportunity/volunteer-match-logod510…\">",
+            "nodeLabel": "div.left-section > div.powered-container > p > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-200-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,IMG",
+            "selector": "div#app > div.vm-zip-code-view-container > div.right-section > img",
+            "boundingRect": {
+              "top": 498,
+              "bottom": 920,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 422
+            },
+            "snippet": "<img data-v-62e83dd2=\"\" src=\"/sites/default/files/images/volunteer_opportunity/init-image831df713.jpg\">",
+            "nodeLabel": "div#app > div.vm-zip-code-view-container > div.right-section > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

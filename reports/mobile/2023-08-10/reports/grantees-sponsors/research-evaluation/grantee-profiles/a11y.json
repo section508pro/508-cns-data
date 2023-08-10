@@ -1,0 +1,2097 @@
+[
+  {
+    "id": "accesskeys",
+    "title": "`[accesskey]` values are unique",
+    "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://web.dev/accesskeys/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-hidden-body",
+    "title": "`[aria-hidden=\"true\"]` is not present on the document `<body>`",
+    "description": "Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn more](https://web.dev/aria-hidden-body/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements do not contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-meter-name",
+    "title": "ARIA `meter` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-progressbar-name",
+    "title": "ARIA `progressbar` elements have accessible names",
+    "description": "When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-attr",
+    "title": "`[role]`s have all required `[aria-*]` attributes",
+    "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://web.dev/aria-required-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-roles",
+    "title": "`[role]` values are valid",
+    "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-toggle-field-name",
+    "title": "ARIA toggle fields have accessible names",
+    "description": "When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-tooltip-name",
+    "title": "ARIA `tooltip` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-treeitem-name",
+    "title": "ARIA `treeitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-valid-attr",
+    "title": "`[aria-*]` attributes are valid and not misspelled",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://web.dev/aria-valid-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "button-name",
+    "title": "Buttons have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "bypass",
+    "title": "The page contains a heading, skip link, or landmark region",
+    "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://web.dev/bypass/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu > a.parent-link",
+            "boundingRect": {
+              "top": 657,
+              "bottom": 695,
+              "left": 60,
+              "right": 296,
+              "width": 236,
+              "height": 38
+            },
+            "snippet": "<a href=\"/grantees-sponsors/research-evaluation\" class=\"parent-link\">",
+            "nodeLabel": "RESEARCH AND EVALUATION GRANTEES",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.3 (foreground color: #007bff, background color: #e3eafd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-368-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu",
+                  "boundingRect": {
+                    "top": 630,
+                    "bottom": 720,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 90
+                  },
+                  "snippet": "<div class=\"tertiary-sidebar\" id=\"block-americorpsrelatedcontentmenu\">",
+                  "nodeLabel": "RESEARCH AND EVALUATION GRANTEES"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-369-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-249891",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 15809,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 15809
+                  },
+                  "snippet": "<body class=\"page-node-249891 path-node node--type-tertiary-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-249891"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "dlitem",
+    "title": "Definition list items are wrapped in `<dl>` elements",
+    "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "document-title",
+    "title": "Document has a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-370-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,1,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#arizona-state-university-heading",
+            "boundingRect": {
+              "top": 1975,
+              "bottom": 2002,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"arizona-state-university-heading\" class=\"title\">",
+            "nodeLabel": "Arizona State University",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: arizona-state-university-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-371-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,0,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#arizona-state-university-heading",
+                  "boundingRect": {
+                    "top": 8150,
+                    "bottom": 8177,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"arizona-state-university-heading\" class=\"title\">",
+                  "nodeLabel": "Arizona State University"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-372-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,0,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#arizona-state-university-heading",
+                  "boundingRect": {
+                    "top": 10545,
+                    "bottom": 10572,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"arizona-state-university-heading\" class=\"title\">",
+                  "nodeLabel": "Arizona State University"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-373-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,1,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#arizona-state-university",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"arizona-state-university\" class=\"content-block collapse col-10\" aria-labelledby=\"arizona-state-university-heading\">",
+            "nodeLabel": "\n    \n      Title: Assessing Diversity and Equity in Volunteer Inclusion\n\nPrinc…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: arizona-state-university"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-374-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,0,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#arizona-state-university",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"arizona-state-university\" class=\"content-block collapse col-10\" aria-labelledby=\"arizona-state-university-heading\">",
+                  "nodeLabel": "\n    \n      Title: Volunteer Management Capacity II: The State of the Art of No…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-375-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,0,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#arizona-state-university",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"arizona-state-university\" class=\"content-block collapse col-10\" aria-labelledby=\"arizona-state-university-heading\">",
+                  "nodeLabel": "\n    \n      What are the employment outcomes of AmeriCorps Alumni?\n\nPrincipal I…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-376-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,2,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#carleton-college-heading",
+            "boundingRect": {
+              "top": 2094,
+              "bottom": 2120,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"carleton-college-heading\" class=\"title\">",
+            "nodeLabel": "Carleton College",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: carleton-college-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-377-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,0,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#carleton-college-heading",
+                  "boundingRect": {
+                    "top": 5581,
+                    "bottom": 5607,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"carleton-college-heading\" class=\"title\">",
+                  "nodeLabel": "Carleton College"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-378-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,2,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#carleton-college",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"carleton-college\" class=\"content-block collapse col-10\" aria-labelledby=\"carleton-college-heading\">",
+            "nodeLabel": "\n    \n      Title: Using Youth Participatory Action Research (YPAR) insights to…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: carleton-college"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-379-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,0,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#carleton-college",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"carleton-college\" class=\"content-block collapse col-10\" aria-labelledby=\"carleton-college-heading\">",
+                  "nodeLabel": "\n    \n      Title: Participatory Action Research on Rural Secondary Education: …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-380-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,3,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#drexel-university-heading",
+            "boundingRect": {
+              "top": 2212,
+              "bottom": 2239,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"drexel-university-heading\" class=\"title\">",
+            "nodeLabel": "Drexel University",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: drexel-university-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-381-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,2,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#drexel-university-heading",
+                  "boundingRect": {
+                    "top": 5818,
+                    "bottom": 5845,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"drexel-university-heading\" class=\"title\">",
+                  "nodeLabel": "Drexel University"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-382-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,3,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#drexel-university",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"drexel-university\" class=\"content-block collapse col-10\" aria-labelledby=\"drexel-university-heading\">",
+            "nodeLabel": "\n    \n      Title: Arts-centered Community Action: How Public Arts Programming …",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: drexel-university"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-383-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,2,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#drexel-university",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"drexel-university\" class=\"content-block collapse col-10\" aria-labelledby=\"drexel-university-heading\">",
+                  "nodeLabel": "\n    \n      Title: Anti-Displacement: The Untapped Potential of University-Comm…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-384-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,4,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#fielding-graduate-university-heading",
+            "boundingRect": {
+              "top": 2331,
+              "bottom": 2384,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 53
+            },
+            "snippet": "<h3 id=\"fielding-graduate-university-heading\" class=\"title\">",
+            "nodeLabel": "Fielding Graduate University",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: fielding-graduate-university-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-385-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,3,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#fielding-graduate-university-heading",
+                  "boundingRect": {
+                    "top": 5937,
+                    "bottom": 5990,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 53
+                  },
+                  "snippet": "<h3 id=\"fielding-graduate-university-heading\" class=\"title\">",
+                  "nodeLabel": "Fielding Graduate University"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-386-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,4,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#fielding-graduate-university",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"fielding-graduate-university\" class=\"content-block collapse col-10\" aria-labelledby=\"fielding-graduate-university-heading\">",
+            "nodeLabel": "\n    \n      Title: Folk School Alliance Network: Strengthening a distributed ne…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: fielding-graduate-university"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-387-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,3,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#fielding-graduate-university",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"fielding-graduate-university\" class=\"content-block collapse col-10\" aria-labelledby=\"fielding-graduate-university-heading\">",
+                  "nodeLabel": "\n    \n      Title: Leading from the Roots: U.S. Community Based Folk Schools In…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-388-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,5,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#george-mason-university-heading",
+            "boundingRect": {
+              "top": 2476,
+              "bottom": 2503,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"george-mason-university-heading\" class=\"title\">",
+            "nodeLabel": "George Mason University",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: george-mason-university-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-389-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,3,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#george-mason-university-heading",
+                  "boundingRect": {
+                    "top": 10954,
+                    "bottom": 10981,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"george-mason-university-heading\" class=\"title\">",
+                  "nodeLabel": "George Mason University"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-390-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,5,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#george-mason-university",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"george-mason-university\" class=\"content-block collapse col-10\" aria-labelledby=\"george-mason-university-heading\">",
+            "nodeLabel": "\n    \n      Title: Immigrants, Athletes, and Engagement\n\nPrincipal Investigator…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: george-mason-university"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-391-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,3,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#george-mason-university",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"george-mason-university\" class=\"content-block collapse col-10\" aria-labelledby=\"george-mason-university-heading\">",
+                  "nodeLabel": "\n    \n      Are economic opportunity and success for immigrants tied to higher …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-392-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,6,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#mississippi-state-university-heading",
+            "boundingRect": {
+              "top": 2595,
+              "bottom": 2648,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 53
+            },
+            "snippet": "<h3 id=\"mississippi-state-university-heading\" class=\"title\">",
+            "nodeLabel": "Mississippi State University",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: mississippi-state-university-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-393-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,4,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#mississippi-state-university-heading",
+                  "boundingRect": {
+                    "top": 6082,
+                    "bottom": 6135,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 53
+                  },
+                  "snippet": "<h3 id=\"mississippi-state-university-heading\" class=\"title\">",
+                  "nodeLabel": "Mississippi State University"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-394-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,6,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#mississippi-state-university",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"mississippi-state-university\" class=\"content-block collapse col-10\" aria-labelledby=\"mississippi-state-university-heading\">",
+            "nodeLabel": "\n    \n      Title: Democracy's colleges: Expanding civic Engagement, volunteeri…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: mississippi-state-university"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-395-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,4,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#mississippi-state-university",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"mississippi-state-university\" class=\"content-block collapse col-10\" aria-labelledby=\"mississippi-state-university-heading\">",
+                  "nodeLabel": "\n    \n      Title: Voices of Hidden Figures in the Quest to Increase Postsecond…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-396-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,7,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#smith-college-heading",
+            "boundingRect": {
+              "top": 2740,
+              "bottom": 2766,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"smith-college-heading\" class=\"title\">",
+            "nodeLabel": "Smith College",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: smith-college-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-397-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,5,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#smith-college-heading",
+                  "boundingRect": {
+                    "top": 6227,
+                    "bottom": 6254,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"smith-college-heading\" class=\"title\">",
+                  "nodeLabel": "Smith College"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-398-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,7,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#smith-college",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"smith-college\" class=\"content-block collapse col-10\" aria-labelledby=\"smith-college-heading\">",
+            "nodeLabel": "\n    \n      Title: Young People as Teachers\n\nPrincipal Investigators:  Sam Intr…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: smith-college"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-399-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,5,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#smith-college",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"smith-college\" class=\"content-block collapse col-10\" aria-labelledby=\"smith-college-heading\">",
+                  "nodeLabel": "\n    \n      Title: Transfer and Transition – The Challenge of Sustaining Impact…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-400-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,10,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#tufts-university-heading",
+            "boundingRect": {
+              "top": 3175,
+              "bottom": 3202,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"tufts-university-heading\" class=\"title\">",
+            "nodeLabel": "Tufts University",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: tufts-university-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-401-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,7,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#tufts-university-heading",
+                  "boundingRect": {
+                    "top": 6517,
+                    "bottom": 6544,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"tufts-university-heading\" class=\"title\">",
+                  "nodeLabel": "Tufts University"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-402-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,5,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#tufts-university-heading",
+                  "boundingRect": {
+                    "top": 11192,
+                    "bottom": 11218,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"tufts-university-heading\" class=\"title\">",
+                  "nodeLabel": "Tufts University"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-403-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,10,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#tufts-university",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"tufts-university\" class=\"content-block collapse col-10\" aria-labelledby=\"tufts-university-heading\">",
+            "nodeLabel": "\n    \n      Title: Impact of COVID-era Mutual Aid Initiatives on Civic Infrastr…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: tufts-university"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-404-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,7,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#tufts-university",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"tufts-university\" class=\"content-block collapse col-10\" aria-labelledby=\"tufts-university-heading\">",
+                  "nodeLabel": "\n    \n      Title: From Civic Participation to Community Control: Assessing and…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-405-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,5,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#tufts-university",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"tufts-university\" class=\"content-block collapse col-10\" aria-labelledby=\"tufts-university-heading\">",
+                  "nodeLabel": "\n    \n      Does listing national service on a resume positively impact job pro…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-406-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,12,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-cincinnati-heading",
+            "boundingRect": {
+              "top": 3439,
+              "bottom": 3466,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"university-of-cincinnati-heading\" class=\"title\">",
+            "nodeLabel": "University of Cincinnati",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-cincinnati-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-407-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,8,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-cincinnati-heading",
+                  "boundingRect": {
+                    "top": 6636,
+                    "bottom": 6663,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"university-of-cincinnati-heading\" class=\"title\">",
+                  "nodeLabel": "University of Cincinnati"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-408-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,12,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#university-of-cincinnati",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"university-of-cincinnati\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-cincinnati-heading\">",
+            "nodeLabel": "\n    \n      Title: Civic Action for Refugee Empowerment in Cincinnati\n\nPrincipa…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-cincinnati"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-409-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,8,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#university-of-cincinnati",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"university-of-cincinnati\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-cincinnati-heading\">",
+                  "nodeLabel": "\n    \n      Title: Civic Action for Refugee Empowerment in Cincinnati (CARE Cin…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-410-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,13,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-denver-heading",
+            "boundingRect": {
+              "top": 3558,
+              "bottom": 3585,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"university-of-denver-heading\" class=\"title\">",
+            "nodeLabel": "University of Denver",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-denver-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-411-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,9,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-denver-heading",
+                  "boundingRect": {
+                    "top": 6755,
+                    "bottom": 6781,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"university-of-denver-heading\" class=\"title\">",
+                  "nodeLabel": "University of Denver"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-412-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,13,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#university-of-denver",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"university-of-denver\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-denver-heading\">",
+            "nodeLabel": "\n    \n      Title: Participatory research to build civic infrastructure through…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-denver"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-413-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,9,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#university-of-denver",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"university-of-denver\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-denver-heading\">",
+                  "nodeLabel": "\n    \n      Title: Mutual Aid as a Bridge to Social Capital and Civic Engagemen…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-414-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,14,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-georgia--heading",
+            "boundingRect": {
+              "top": 3677,
+              "bottom": 3703,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"university-of-georgia--heading\" class=\"title\">",
+            "nodeLabel": "University of Georgia",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-georgia--heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-415-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,7,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-georgia--heading",
+                  "boundingRect": {
+                    "top": 9300,
+                    "bottom": 9327,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"university-of-georgia--heading\" class=\"title\">",
+                  "nodeLabel": "University of Georgia"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-416-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,14,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#university-of-georgia-",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"university-of-georgia-\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-georgia--heading\">",
+            "nodeLabel": "\n    \n      Title: Examining the Influence of Civic Infrastructure on Rural/Urb…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-georgia-"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-417-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,7,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#university-of-georgia-",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"university-of-georgia-\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-georgia--heading\">",
+                  "nodeLabel": "\n    \n      Title: Examining the Determinants of Rural/Urban Volunteering \n\nPri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-418-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,15,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-maine-heading",
+            "boundingRect": {
+              "top": 3795,
+              "bottom": 3822,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"university-of-maine-heading\" class=\"title\">",
+            "nodeLabel": "University of Maine",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-maine-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-419-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,8,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-maine-heading",
+                  "boundingRect": {
+                    "top": 9419,
+                    "bottom": 9445,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"university-of-maine-heading\" class=\"title\">",
+                  "nodeLabel": "University of Maine"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-420-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,15,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#university-of-maine",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"university-of-maine\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-maine-heading\">",
+            "nodeLabel": "\n    \n      Title: The Future of Virtual Volunteerism Among Older Adults in a P…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-maine"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-421-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,8,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#university-of-maine",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"university-of-maine\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-maine-heading\">",
+                  "nodeLabel": "\n    \n      Title: Juggling Multiple Roles: An Examination of Role Conflict  \n\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-422-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,17,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-pittsburgh-heading",
+            "boundingRect": {
+              "top": 4059,
+              "bottom": 4086,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 27
+            },
+            "snippet": "<h3 id=\"university-of-pittsburgh-heading\" class=\"title\">",
+            "nodeLabel": "University of Pittsburgh",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-pittsburgh-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-423-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,12,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-pittsburgh-heading",
+                  "boundingRect": {
+                    "top": 7164,
+                    "bottom": 7190,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 27
+                  },
+                  "snippet": "<h3 id=\"university-of-pittsburgh-heading\" class=\"title\">",
+                  "nodeLabel": "University of Pittsburgh"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-424-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,17,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#university-of-pittsburgh",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"university-of-pittsburgh\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-pittsburgh-heading\">",
+            "nodeLabel": "\n    \n      Title: Research for Equity and Power\n\nPrincipal Investigators: Mary…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-pittsburgh"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-425-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,12,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#university-of-pittsburgh",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"university-of-pittsburgh\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-pittsburgh-heading\">",
+                  "nodeLabel": "\n    \n      Title: Strengthening Resident Civic Engagement on Behalf of Equitab…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-426-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,18,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-texas-at-austin-heading",
+            "boundingRect": {
+              "top": 4178,
+              "bottom": 4231,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 53
+            },
+            "snippet": "<h3 id=\"university-of-texas-at-austin-heading\" class=\"title\">",
+            "nodeLabel": "University of Texas at Austin",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-texas-at-austin-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-427-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,10,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-texas-at-austin-heading",
+                  "boundingRect": {
+                    "top": 9656,
+                    "bottom": 9709,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 53
+                  },
+                  "snippet": "<h3 id=\"university-of-texas-at-austin-heading\" class=\"title\">",
+                  "nodeLabel": "University of Texas at Austin"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-428-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,6,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-texas-at-austin-heading",
+                  "boundingRect": {
+                    "top": 11310,
+                    "bottom": 11363,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 53
+                  },
+                  "snippet": "<h3 id=\"university-of-texas-at-austin-heading\" class=\"title\">",
+                  "nodeLabel": "University of Texas at Austin"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-429-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,18,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#university-of-texas-at-austin",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"university-of-texas-at-austin\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-texas-at-austin-heading\">",
+            "nodeLabel": "\n    \n      Title: How Nonprofits Create Civic Infrastructure\n\nPrincipal Invest…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-texas-at-austin"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-430-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,10,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#university-of-texas-at-austin",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"university-of-texas-at-austin\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-texas-at-austin-heading\">",
+                  "nodeLabel": "\n    \n      Title: Nonprofits, Civic Infrastructure, and Health and Well-Being …"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-431-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,6,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#university-of-texas-at-austin",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"university-of-texas-at-austin\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-texas-at-austin-heading\">",
+                  "nodeLabel": "\n    \n      Can social media and other digital media data be used to measure su…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-432-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,19,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-wisconsin-whitewater-heading",
+            "boundingRect": {
+              "top": 4323,
+              "bottom": 4376,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 53
+            },
+            "snippet": "<h3 id=\"university-of-wisconsin-whitewater-heading\" class=\"title\">",
+            "nodeLabel": "University of Wisconsin-Whitewater",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-wisconsin-whitewater-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-433-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,14,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#university-of-wisconsin-whitewater-heading",
+                  "boundingRect": {
+                    "top": 7428,
+                    "bottom": 7481,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 53
+                  },
+                  "snippet": "<h3 id=\"university-of-wisconsin-whitewater-heading\" class=\"title\">",
+                  "nodeLabel": "University of Wisconsin Whitewater"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-434-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,19,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#university-of-wisconsin-whitewater",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"university-of-wisconsin-whitewater\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-wisconsin-whitewater-heading\">",
+            "nodeLabel": "\n    \n      Title: Lub Zej Zog: Hmong Educators Coalition Project\n\nPrincipal In…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: university-of-wisconsin-whitewater"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-435-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,5,DIV,14,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#university-of-wisconsin-whitewater",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"university-of-wisconsin-whitewater\" class=\"content-block collapse col-10\" aria-labelledby=\"university-of-wisconsin-whitewater-heading\">",
+                  "nodeLabel": "\n    \n      Profile coming soon!\n\n    \n  "
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-436-H3",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,1,DIV,0,DIV,0,H3",
+            "selector": "div.accordian > div.accordian-section > div.title-block > h3#california-state-university-san-marcos-heading",
+            "boundingRect": {
+              "top": 8269,
+              "bottom": 8322,
+              "left": 45,
+              "right": 308,
+              "width": 263,
+              "height": 53
+            },
+            "snippet": "<h3 id=\"california-state-university-san-marcos-heading\" class=\"title\">",
+            "nodeLabel": "California State University San Marcos",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: california-state-university-san-marcos-heading"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-437-H3",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,1,DIV,0,DIV,0,H3",
+                  "selector": "div.accordian > div.accordian-section > div.title-block > h3#california-state-university-san-marcos-heading",
+                  "boundingRect": {
+                    "top": 10664,
+                    "bottom": 10717,
+                    "left": 45,
+                    "right": 308,
+                    "width": 263,
+                    "height": 53
+                  },
+                  "snippet": "<h3 id=\"california-state-university-san-marcos-heading\" class=\"title\">",
+                  "nodeLabel": "California State University San Marcos"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-438-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,7,DIV,1,DIV,2,DIV",
+            "selector": "div.field > div.accordian > div.accordian-section > div#california-state-university-san-marcos",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<div id=\"california-state-university-san-marcos\" class=\"content-block collapse col-10\" aria-labelledby=\"california-state-university-san-marcos-heading\">",
+            "nodeLabel": "\n    \n      Title: Cultivando Sabiduría (Cultivating Wisdom)  \n\nPrincipal Inves…",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: california-state-university-san-marcos"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-439-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,9,DIV,1,DIV,2,DIV",
+                  "selector": "div.field > div.accordian > div.accordian-section > div#california-state-university-san-marcos",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"california-state-university-san-marcos\" class=\"content-block collapse col-10\" aria-labelledby=\"california-state-university-san-marcos-heading\">",
+                  "nodeLabel": "\n    \n      Can a culturally relevant civic engagement program promote increase…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 32
+  },
+  {
+    "id": "form-field-multiple-labels",
+    "title": "No form fields have multiple labels",
+    "description": "Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn more](https://web.dev/form-field-multiple-labels/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-440-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "boundingRect": {
+              "top": 5336,
+              "bottom": 5517,
+              "left": 45,
+              "right": 367,
+              "width": 322,
+              "height": 181
+            },
+            "snippet": "<iframe width=\"854\" height=\"480\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/vC0PdGfdOo4?autoplay=0&amp;start=0&amp;rel=0\">",
+            "nodeLabel": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements appear in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element has a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "html-lang-valid",
+    "title": "`<html>` element has a valid value for its `[lang]` attribute",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "input-image-alt",
+    "title": "`<input type=\"image\">` elements have `[alt]` text",
+    "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://web.dev/input-image-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "label",
+    "title": "Form elements have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "link-name",
+    "title": "Links have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "list",
+    "title": "Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are contained within `<ul>` or `<ol>` parent elements",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "meta-refresh",
+    "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+    "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://web.dev/meta-refresh/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "meta-viewport",
+    "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+    "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "object-alt",
+    "title": "`<object>` elements have alternate text",
+    "description": "Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://web.dev/object-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "tabindex",
+    "title": "No element has a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "td-headers-attr",
+    "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://web.dev/td-headers-attr/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "th-has-data-cells",
+    "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://web.dev/th-has-data-cells/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "valid-lang",
+    "title": "`[lang]` attributes have a valid value",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://web.dev/valid-lang/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "video-caption",
+    "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+    "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://web.dev/video-caption/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "logical-tab-order",
+    "title": "The page has a logical tab order",
+    "description": "Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more](https://web.dev/logical-tab-order/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focusable-controls",
+    "title": "Interactive controls are keyboard focusable",
+    "description": "Custom interactive controls are keyboard focusable and display a focus indicator. [Learn more](https://web.dev/focusable-controls/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "interactive-element-affordance",
+    "title": "Interactive elements indicate their purpose and state",
+    "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn more](https://web.dev/interactive-element-affordance/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "managed-focus",
+    "title": "The user's focus is directed to new content added to the page",
+    "description": "If new content, such as a dialog, is added to the page, the user's focus is directed to it. [Learn more](https://web.dev/managed-focus/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focus-traps",
+    "title": "User focus is not accidentally trapped in a region",
+    "description": "A user can tab into and out of any control or region without accidentally trapping their focus. [Learn more](https://web.dev/focus-traps/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-labels",
+    "title": "Custom controls have associated labels",
+    "description": "Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more](https://web.dev/custom-controls-labels/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-roles",
+    "title": "Custom controls have ARIA roles",
+    "description": "Custom interactive controls have appropriate ARIA roles. [Learn more](https://web.dev/custom-control-roles/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "visual-order-follows-dom",
+    "title": "Visual order on the page follows DOM order",
+    "description": "DOM order matches the visual order, improving navigation for assistive technology. [Learn more](https://web.dev/visual-order-follows-dom/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "offscreen-content-hidden",
+    "title": "Offscreen content is hidden from assistive technology",
+    "description": "Offscreen content is hidden with display: none or aria-hidden=true. [Learn more](https://web.dev/offscreen-content-hidden/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "use-landmarks",
+    "title": "HTML5 landmark elements are used to improve navigation",
+    "description": "Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. [Learn more](https://web.dev/use-landmarks/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  }
+]

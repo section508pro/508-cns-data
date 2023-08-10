@@ -1,0 +1,538 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-87-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu > a.parent-link",
+            "boundingRect": {
+              "top": 706,
+              "bottom": 724,
+              "left": 60,
+              "right": 229,
+              "width": 169,
+              "height": 18
+            },
+            "snippet": "<a href=\"/serve/americorps/americorps-nccc\" class=\"parent-link\">",
+            "nodeLabel": "AMERICORPS NCCC",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.3 (foreground color: #007bff, background color: #e3eafd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-259-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu",
+                  "boundingRect": {
+                    "top": 679,
+                    "bottom": 749,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 70
+                  },
+                  "snippet": "<div class=\"tertiary-sidebar\" id=\"block-americorpsrelatedcontentmenu\">",
+                  "nodeLabel": "AMERICORPS NCCC"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-260-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172376",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11715,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11715
+                  },
+                  "snippet": "<body class=\"page-node-172376 path-node node--type-tertiary-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172376"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-98-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,UL,0,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1009,
+              "bottom": 1053,
+              "left": 265,
+              "right": 366,
+              "width": 101,
+              "height": 44
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#eligibility\">",
+            "nodeLabel": "Eligibility Requirements",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-261-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV",
+                  "selector": "div.col-lg-12 > div.field > div > div",
+                  "boundingRect": {
+                    "top": 957,
+                    "bottom": 1267,
+                    "left": 225,
+                    "right": 367,
+                    "width": 142,
+                    "height": 310
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 2%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump To:\nEligibility Requirements\nJoin a Webinar\nBegin Your Journey: How to App…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-99-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,UL,1,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1101,
+              "left": 265,
+              "right": 326,
+              "width": 61,
+              "height": 44
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#start_app\">",
+            "nodeLabel": "Join a Webinar",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-261-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV",
+                  "selector": "div.col-lg-12 > div.field > div > div",
+                  "boundingRect": {
+                    "top": 957,
+                    "bottom": 1267,
+                    "left": 225,
+                    "right": 367,
+                    "width": 142,
+                    "height": 310
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 2%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump To:\nEligibility Requirements\nJoin a Webinar\nBegin Your Journey: How to App…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-100-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,UL,2,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1105,
+              "bottom": 1197,
+              "left": 265,
+              "right": 341,
+              "width": 76,
+              "height": 92
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#begin\">",
+            "nodeLabel": "Begin Your Journey: How to Apply",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-261-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV",
+                  "selector": "div.col-lg-12 > div.field > div > div",
+                  "boundingRect": {
+                    "top": 957,
+                    "bottom": 1267,
+                    "left": 225,
+                    "right": 367,
+                    "width": 142,
+                    "height": 310
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 2%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump To:\nEligibility Requirements\nJoin a Webinar\nBegin Your Journey: How to App…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-101-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,UL,3,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1201,
+              "bottom": 1245,
+              "left": 265,
+              "right": 309,
+              "width": 44,
+              "height": 44
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#get-in-touch\">",
+            "nodeLabel": "Get in Touch",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-261-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV",
+                  "selector": "div.col-lg-12 > div.field > div > div",
+                  "boundingRect": {
+                    "top": 957,
+                    "bottom": 1267,
+                    "left": 225,
+                    "right": 367,
+                    "width": 142,
+                    "height": 310
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 2%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump To:\nEligibility Requirements\nJoin a Webinar\nBegin Your Journey: How to App…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-186-A",
+            "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,FORM,3,DIV,1,LABEL,2,A",
+            "selector": "form > div#prefix-consent-outer > label#prefix-consentPolicyLabel > a",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 256,
+              "left": 274,
+              "right": 372,
+              "width": 98,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://subscriberhelp.granicus.com/s/article/Privacy\" target=\"_blank\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "data privacy policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-262-DIV",
+                  "path": "1,HTML,1,BODY,7,DIV,2,DIV",
+                  "selector": "body.page-node-172376 > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 384,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 384
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-labelledby=\"prefix-overlay-header\" aria-describedby=\"prefix-overlay-step1\" aria-modal=\"true\">",
+                  "nodeLabel": "Sign up to stay informed!\nClose subscription dialog\nStay Connected! Get AmeriCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-263-DIV",
+            "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,5,DIV",
+            "selector": "div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer > div.prefix-overlay-inner > div#prefix-overlay-footer",
+            "boundingRect": {
+              "top": 328,
+              "bottom": 374,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 46
+            },
+            "snippet": "<div id=\"prefix-overlay-footer\" style=\"font-size: 11px; line-height: 1.3; font-family: &quot;Open Sans&quot;, &quot;Helvetica Neu…&quot;;\">",
+            "nodeLabel": "AmeriCorps uses GovDelivery to store your contact information and subscription …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #777777, background color: #f2f2f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-262-DIV",
+                  "path": "1,HTML,1,BODY,7,DIV,2,DIV",
+                  "selector": "body.page-node-172376 > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 384,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 384
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-labelledby=\"prefix-overlay-header\" aria-describedby=\"prefix-overlay-step1\" aria-modal=\"true\">",
+                  "nodeLabel": "Sign up to stay informed!\nClose subscription dialog\nStay Connected! Get AmeriCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-187-A",
+            "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,5,DIV,1,A",
+            "selector": "div#prefix-overlay-outer > div.prefix-overlay-inner > div#prefix-overlay-footer > a",
+            "boundingRect": {
+              "top": 341,
+              "bottom": 354,
+              "left": 180,
+              "right": 260,
+              "width": 80,
+              "height": 13
+            },
+            "snippet": "<a href=\"https://subscriberhelp.granicus.com/s/article/Granicus-LLC-SubscriberPriva…\" style=\"color:#3276b1; text-decoration:underline;\">",
+            "nodeLabel": "Privacy Statement",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3276b1, background color: #f2f2f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-262-DIV",
+                  "path": "1,HTML,1,BODY,7,DIV,2,DIV",
+                  "selector": "body.page-node-172376 > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 384,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 384
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-labelledby=\"prefix-overlay-header\" aria-describedby=\"prefix-overlay-step1\" aria-modal=\"true\">",
+                  "nodeLabel": "Sign up to stay informed!\nClose subscription dialog\nStay Connected! Get AmeriCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-188-A",
+            "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,5,DIV,3,A",
+            "selector": "div#prefix-overlay-outer > div.prefix-overlay-inner > div#prefix-overlay-footer > a",
+            "boundingRect": {
+              "top": 341,
+              "bottom": 354,
+              "left": 266,
+              "right": 345,
+              "width": 79,
+              "height": 13
+            },
+            "snippet": "<a href=\"https://subscriberhelp.granicus.com/s/article/Cookies\" style=\"color:#3276b1; text-decoration:underline;\">",
+            "nodeLabel": "Cookie Statement",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3276b1, background color: #f2f2f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "21-262-DIV",
+                  "path": "1,HTML,1,BODY,7,DIV,2,DIV",
+                  "selector": "body.page-node-172376 > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 384,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 384
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-labelledby=\"prefix-overlay-header\" aria-describedby=\"prefix-overlay-step1\" aria-modal=\"true\">",
+                  "nodeLabel": "Sign up to stay informed!\nClose subscription dialog\nStay Connected! Get AmeriCo…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 9
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-264-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,H4",
+            "selector": "div.field > div > div > h4",
+            "boundingRect": {
+              "top": 977,
+              "bottom": 999,
+              "left": 245,
+              "right": 347,
+              "width": 102,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Jump To:",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "21-102-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,2,P,0,A",
+            "selector": "div.col-lg-12 > div.field > p.text-align-center > a",
+            "boundingRect": {
+              "top": 1685,
+              "bottom": 1685,
+              "left": 206,
+              "right": 206,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"#start_app\">",
+            "nodeLabel": "div.col-lg-12 > div.field > p.text-align-center > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

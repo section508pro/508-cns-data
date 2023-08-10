@@ -160,6 +160,7 @@ function buildRollupJson(type){
                     // sort by errorCount, largest to smallest
                     let wcagSorted = new Map([...wcag.entries()].sort((a,b) => b[1] - a[1]));
 
+                    // write to file
                     fs.writeFileSync(`./reports/${type}/${date}/errors-summary-wcag.json`, JSON.stringify(Object.fromEntries(wcagSorted), null, 2));
                     console.log(`./reports/${type}/${date}/errors-summary-wcag.json`); 
                     

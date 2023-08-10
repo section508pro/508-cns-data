@@ -8,6 +8,46 @@ buildA11yJson('desktop');
 buildRollupJson('mobile');
 buildRollupJson('desktop');
 
+const rules = {
+    "aria-allowed-attr": ["4.1.2"],
+    "aria-command-name": ["4.1.2"],
+    "aria-hidden-body": ["4.1.2"],
+    "aria-hidden-focus": ["1.3.1", "4.1.2"],
+    "aria-input-field-name": ["4.1.2"],
+    "aria-meter-name": ["1.1.1"],
+    "aria-progressbar-name": ["1.1.1"],
+    "aria-required-attr": ["4.1.2"],
+    "aria-required-children": ["1.3.1"],
+    "aria-required-parent": ["1.3.1"],
+    "aria-roles": ["4.1.2"],
+    "aria-toggle-field-name": ["4.1.2"],
+    "aria-tooltip-name": ["4.1.2"],
+    "aria-valid-attr-value": ["4.1.2"],
+    "aria-valid-attr": ["4.1.2"],
+    "button-name": ["4.1.2"],
+    "bypass": ["2.4.1"],
+    "color-contrast": ["1.4.3"],
+    "definition-list": ["1.3.1"],
+    "document-title": ["2.4.2"],
+    "duplicate-id-active": ["4.1.1"],
+    "duplicate-id-aria": ["4.1.1"],
+    "form-field-multiple-labels": ["3.3.2"],
+    "frame-title": ["2.4.1", "4.1.2"],
+    "html-has-lang": ["3.1.1"],
+    "html-lang-valid": ["3.1.1"],
+    "image-alt": ["1.1.1"],
+    "input-image-alt": ["1.1.1"],
+    "label": ["1.3.1", "4.1.2"],          
+    "link-name": ["2.4.4", "4.1.2"],
+    "list": ["1.3.1"],
+    "listitem": ["1.3.1"],
+    "meta-refresh": ["2.2.1", "2.2.4", "3.2.5"],
+    "object-alt": ["1.1.1"],
+    "td-headers-attr": ["1.3.1"],
+    "valid-lang": ["3.1.2"],
+    "video-caption": ["1.2.2"]
+  };
+
 function buildIndexJson(type){
     let dates = [];
 
@@ -94,16 +134,35 @@ function buildRollupJson(type){
                         condensed.set(it.id, sum += it.errorCount);                        
                     });
 
-                    //sort by errorCount, largest to smallest
+                    // sort by errorCount, largest to smallest
                     let condensedSorted = new Map([...condensed.entries()].sort((a,b) => b[1] - a[1]));
 
                     // convert to array
                     // let sorted = Array.from(condensedSorted, ([name, value]) => ({ name, value }));
                     
-                    //write to file
+                    // write to file
                     // fs.writeFileSync(`./reports/${type}/${date}/summary.json`, JSON.stringify(sorted, null, 2));
                     fs.writeFileSync(`./reports/${type}/${date}/errors-summary-lighthouse.json`, JSON.stringify(Object.fromEntries(condensedSorted), null, 2));
-                    console.log(`./reports/${type}/${date}/errors-summary-lighthouse.json`);                    
+                    console.log(`./reports/${type}/${date}/errors-summary-lighthouse.json`); 
+                    
+                    // convert lighthouse to wcag
+                    let wcag = new Map();
+                    condensed.forEach((value, key, map) => {
+                        let scList = rules[key];
+                        if(scList){
+                            scList.forEach((sc) => {
+                                let sum = wcag.get(sc) || 0;
+                                wcag.set(sc, sum += value);
+                            });    
+                        }
+                    });
+
+                    // sort by errorCount, largest to smallest
+                    let wcagSorted = new Map([...wcag.entries()].sort((a,b) => b[1] - a[1]));
+
+                    fs.writeFileSync(`./reports/${type}/${date}/errors-summary-wcag.json`, JSON.stringify(Object.fromEntries(wcagSorted), null, 2));
+                    console.log(`./reports/${type}/${date}/errors-summary-wcag.json`); 
+                    
                 }catch(err){
                     console.error(err);
                 }        

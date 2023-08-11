@@ -1,0 +1,259 @@
+[
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "41-243-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "boundingRect": {
+              "top": 1323,
+              "bottom": 1627,
+              "left": 120,
+              "right": 660,
+              "width": 540,
+              "height": 304
+            },
+            "snippet": "<iframe width=\"854\" height=\"480\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/VOooEU2Waog?autoplay=0&amp;start=0&amp;rel=0\">",
+            "nodeLabel": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "41-244-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "boundingRect": {
+              "top": 2419,
+              "bottom": 2723,
+              "left": 120,
+              "right": 660,
+              "width": 540,
+              "height": 304
+            },
+            "snippet": "<iframe width=\"854\" height=\"480\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/6Tra9FCXWa0?autoplay=0&amp;start=13&amp;rel=0\">",
+            "nodeLabel": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "41-245-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "boundingRect": {
+              "top": 3045,
+              "bottom": 3349,
+              "left": 690,
+              "right": 1230,
+              "width": 540,
+              "height": 304
+            },
+            "snippet": "<iframe width=\"854\" height=\"480\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/TAh8mzWCrqg?autoplay=0&amp;start=0&amp;rel=0\">",
+            "nodeLabel": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "41-246-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,6,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "boundingRect": {
+              "top": 4116,
+              "bottom": 4420,
+              "left": 690,
+              "right": 1230,
+              "width": 540,
+              "height": 304
+            },
+            "snippet": "<iframe width=\"854\" height=\"480\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/XWi7sMaV1LA?autoplay=0&amp;start=0&amp;rel=0\">",
+            "nodeLabel": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "41-247-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.row > div.col-lg-12 > div.field > h4",
+            "boundingRect": {
+              "top": 1968,
+              "bottom": 1990,
+              "left": 722,
+              "right": 1198,
+              "width": 476,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "AmeriCorps Member Race and Ethnicity National Figures",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "41-248-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.view-content > div.col-12 > div.card-rounded > h4.title",
+            "boundingRect": {
+              "top": 5527,
+              "bottom": 5649,
+              "left": 144,
+              "right": 351,
+              "width": 207,
+              "height": 121
+            },
+            "snippet": "<h4 class=\"title\">",
+            "nodeLabel": "Double Trouble: Reigniting Civic Engagement through Pandemics and Disasters",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "41-249-UL",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL",
+            "selector": "nav.navbar > div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav",
+            "boundingRect": {
+              "top": 34,
+              "bottom": 123,
+              "left": 304,
+              "right": 979,
+              "width": 675,
+              "height": 89
+            },
+            "snippet": "<ul class=\"navbar-nav\">",
+            "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "41-250-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav > div.menu-region",
+                  "boundingRect": {
+                    "top": 34,
+                    "bottom": 123,
+                    "left": 304,
+                    "right": 979,
+                    "width": 675,
+                    "height": 89
+                  },
+                  "snippet": "<div class=\"menu-region\">",
+                  "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

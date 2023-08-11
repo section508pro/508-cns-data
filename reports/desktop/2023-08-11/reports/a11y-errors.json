@@ -1,0 +1,665 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-213-P",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,8,DIV,0,DIV,0,DIV,0,DIV,0,P",
+            "selector": "div.container > div.row > div.col-12 > p.quote",
+            "boundingRect": {
+              "top": 4535,
+              "bottom": 4666,
+              "left": 120,
+              "right": 1040,
+              "width": 920,
+              "height": 131
+            },
+            "snippet": "<p class=\"quote q h2\">",
+            "nodeLabel": "My advice to those considering AmeriCorps VISTA is to DO IT! Jump out of the se…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.79 (foreground color: #98b2f7, background color: #e8eefd, font size: 26.3pt (35px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-214-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,8,DIV",
+                  "selector": "article > div > div.field > div.story",
+                  "boundingRect": {
+                    "top": 4535,
+                    "bottom": 4939,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 404
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth lightblue\">",
+                  "nodeLabel": "My advice to those considering AmeriCorps VISTA is to DO IT! Jump out of the se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-215-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,8,DIV,0,DIV,0,DIV,1,DIV,0,A,0,SPAN,0,SPAN",
+            "selector": "div.col-8 > a.aos-init > span.normal > span.name",
+            "boundingRect": {
+              "top": 4727,
+              "bottom": 4754,
+              "left": 120,
+              "right": 470,
+              "width": 350,
+              "height": 27
+            },
+            "snippet": "<span class=\"name h3\">",
+            "nodeLabel": "Becky Cain, Americorps Member",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.21 (foreground color: #97a2b6, background color: #e8eefd, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-214-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,8,DIV",
+                  "selector": "article > div > div.field > div.story",
+                  "boundingRect": {
+                    "top": 4535,
+                    "bottom": 4939,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 404
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth lightblue\">",
+                  "nodeLabel": "My advice to those considering AmeriCorps VISTA is to DO IT! Jump out of the se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-96-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 5637,
+              "bottom": 5721,
+              "left": 145,
+              "right": 442,
+              "width": 297,
+              "height": 84
+            },
+            "snippet": "<a href=\"/blogs/2023-07-20/summer-remember-my-familys-inspiration-make-difference-c…\" hreflang=\"en\">",
+            "nodeLabel": "A Summer to Remember: My Family’s Inspiration to Make a Difference in Communiti…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #6b7789, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-216-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5612,
+                    "bottom": 5892,
+                    "left": 120,
+                    "right": 470,
+                    "width": 350,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "A Summer to Remember: My Family’s Inspiration to Make a Difference in Communiti…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-217-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 5851,
+              "bottom": 5892,
+              "left": 145,
+              "right": 248,
+              "width": 103,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JULY 20, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #6b7789, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-216-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5612,
+                    "bottom": 5892,
+                    "left": 120,
+                    "right": 470,
+                    "width": 350,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "A Summer to Remember: My Family’s Inspiration to Make a Difference in Communiti…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-97-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 5637,
+              "bottom": 5693,
+              "left": 525,
+              "right": 770,
+              "width": 245,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-07-14/five-things-do-your-twenties\" hreflang=\"en\">",
+            "nodeLabel": "Five Things to Do in Your Twenties",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #6b7789, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5612,
+                    "bottom": 5892,
+                    "left": 500,
+                    "right": 850,
+                    "width": 350,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Five Things to Do in Your Twenties\nJULY 14, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-219-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 5851,
+              "bottom": 5892,
+              "left": 525,
+              "right": 625,
+              "width": 100,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JULY 14, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #6b7789, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5612,
+                    "bottom": 5892,
+                    "left": 500,
+                    "right": 850,
+                    "width": 350,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Five Things to Do in Your Twenties\nJULY 14, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-98-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 5637,
+              "bottom": 5693,
+              "left": 905,
+              "right": 1177,
+              "width": 272,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-07-06/make-difference-choose-americorps\" hreflang=\"en\">",
+            "nodeLabel": "Make a Difference. Choose AmeriCorps.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #6b7789, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-220-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5612,
+                    "bottom": 5892,
+                    "left": 880,
+                    "right": 1230,
+                    "width": 350,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Make a Difference. Choose AmeriCorps.\nJULY 6, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-221-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 5851,
+              "bottom": 5892,
+              "left": 905,
+              "right": 998,
+              "width": 93,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JULY 6, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.39 (foreground color: #6b7789, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-220-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5612,
+                    "bottom": 5892,
+                    "left": 880,
+                    "right": 1230,
+                    "width": 350,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Make a Difference. Choose AmeriCorps.\nJULY 6, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-100-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,12,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 6368,
+              "bottom": 6533,
+              "left": 140,
+              "right": 350,
+              "width": 210,
+              "height": 166
+            },
+            "snippet": "<a href=\"/newsroom/press-release/low-income-americans-receive-record-84-million-tax…\" hreflang=\"en\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.27 (foreground color: #a5adb8, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,12,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 6355,
+                    "bottom": 7057,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 702
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-101-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,12,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 6368,
+              "bottom": 6561,
+              "left": 425,
+              "right": 640,
+              "width": 215,
+              "height": 193
+            },
+            "snippet": "<a href=\"/newsroom/press-release/185000-americans-be-recruited-across-nation-911-ml…\" hreflang=\"en\">",
+            "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.27 (foreground color: #a5adb8, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,12,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 6355,
+                    "bottom": 7057,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 702
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-102-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,12,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 6368,
+              "bottom": 6561,
+              "left": 710,
+              "right": 903,
+              "width": 193,
+              "height": 193
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-increases-minimum-living-healthcare-all…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Increases Minimum Living, Healthcare Allowances for Members Serving …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.27 (foreground color: #a5adb8, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,12,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 6355,
+                    "bottom": 7057,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 702
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-103-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,12,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 6368,
+              "bottom": 6616,
+              "left": 995,
+              "right": 1195,
+              "width": 200,
+              "height": 248
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-announces-millions-funding-student-cons…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Announces Millions in Funding for Student Conservation Association, …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.27 (foreground color: #a5adb8, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,12,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 6355,
+                    "bottom": 7057,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 702
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 12
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-223-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,12,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.card > div.content > div.views-field > h4.field-content",
+            "boundingRect": {
+              "top": 6369,
+              "bottom": 6534,
+              "left": 140,
+              "right": 355,
+              "width": 215,
+              "height": 165
+            },
+            "snippet": "<h4 class=\"field-content\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-224-UL",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL",
+            "selector": "nav.navbar > div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav",
+            "boundingRect": {
+              "top": 34,
+              "bottom": 123,
+              "left": 304,
+              "right": 979,
+              "width": 675,
+              "height": 89
+            },
+            "snippet": "<ul class=\"navbar-nav\">",
+            "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-225-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav > div.menu-region",
+                  "boundingRect": {
+                    "top": 34,
+                    "bottom": 123,
+                    "left": 304,
+                    "right": 979,
+                    "width": 675,
+                    "height": 89
+                  },
+                  "snippet": "<div class=\"menu-region\">",
+                  "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

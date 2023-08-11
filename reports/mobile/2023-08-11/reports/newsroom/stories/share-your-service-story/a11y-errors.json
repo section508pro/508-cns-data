@@ -1,0 +1,137 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu > a.parent-link",
+            "boundingRect": {
+              "top": 535,
+              "bottom": 553,
+              "left": 60,
+              "right": 143,
+              "width": 83,
+              "height": 18
+            },
+            "snippet": "<a href=\"/newsroom/stories\" class=\"parent-link\">",
+            "nodeLabel": "STORIES",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.3 (foreground color: #007bff, background color: #e3eafd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-226-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu",
+                  "boundingRect": {
+                    "top": 508,
+                    "bottom": 578,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 70
+                  },
+                  "snippet": "<div class=\"tertiary-sidebar\" id=\"block-americorpsrelatedcontentmenu\">",
+                  "nodeLabel": "STORIES"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-227-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-199966",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 6178,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 6178
+                  },
+                  "snippet": "<body class=\"page-node-199966 path-node node--type-tertiary-page d-theme-preceded\" data-once=\"form-single-submit detailsAria\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-199966"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-88-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,FORM,13,DETAILS,6,DIV,0,A",
+            "selector": "form#webform-submission-share-your-service-story-paragraph-9126-add-form > details#captcha > div.reload-captcha-wrapper > a.reload-captcha",
+            "boundingRect": {
+              "top": 3221,
+              "bottom": 3241,
+              "left": 45,
+              "right": 174,
+              "width": 129,
+              "height": 20
+            },
+            "snippet": "<a href=\"/image-captcha-refresh/webform_submission_share_your_service_story_paragra…\" class=\"reload-captcha\">",
+            "nodeLabel": "Get new captcha!",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-227-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-199966",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 6178,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 6178
+                  },
+                  "snippet": "<body class=\"page-node-199966 path-node node--type-tertiary-page d-theme-preceded\" data-once=\"form-single-submit detailsAria\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-199966"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

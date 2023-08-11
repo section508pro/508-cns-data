@@ -1,0 +1,356 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-87-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu > a.parent-link",
+            "boundingRect": {
+              "top": 559,
+              "bottom": 577,
+              "left": 60,
+              "right": 229,
+              "width": 169,
+              "height": 18
+            },
+            "snippet": "<a href=\"/serve/americorps/americorps-nccc\" class=\"parent-link\">",
+            "nodeLabel": "AMERICORPS NCCC",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.3 (foreground color: #007bff, background color: #e3eafd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-259-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu",
+                  "boundingRect": {
+                    "top": 532,
+                    "bottom": 602,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 70
+                  },
+                  "snippet": "<div class=\"tertiary-sidebar\" id=\"block-americorpsrelatedcontentmenu\">",
+                  "nodeLabel": "AMERICORPS NCCC"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-260-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172371",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13013,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13013
+                  },
+                  "snippet": "<body class=\"page-node-172371 path-node node--type-tertiary-page d-theme-preceded scrol…\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172371"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-99-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,1,UL,0,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 915,
+              "bottom": 959,
+              "left": 265,
+              "right": 340,
+              "width": 75,
+              "height": 44
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#trad\">",
+            "nodeLabel": "Traditional Corps",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-261-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV",
+                  "selector": "div.col-lg-12 > div.field > div > div",
+                  "boundingRect": {
+                    "top": 862,
+                    "bottom": 1197,
+                    "left": 225,
+                    "right": 367,
+                    "width": 142,
+                    "height": 334
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 2%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump To:\nTraditional Corps\nFEMA Corps\nPosition Options\nCampuses and Regions\nGet…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-100-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,1,UL,1,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 963,
+              "bottom": 1007,
+              "left": 265,
+              "right": 309,
+              "width": 44,
+              "height": 44
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#fema\">",
+            "nodeLabel": "FEMA Corps",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-261-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV",
+                  "selector": "div.col-lg-12 > div.field > div > div",
+                  "boundingRect": {
+                    "top": 862,
+                    "bottom": 1197,
+                    "left": 225,
+                    "right": 367,
+                    "width": 142,
+                    "height": 334
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 2%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump To:\nTraditional Corps\nFEMA Corps\nPosition Options\nCampuses and Regions\nGet…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-101-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,1,UL,2,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1011,
+              "bottom": 1055,
+              "left": 265,
+              "right": 323,
+              "width": 58,
+              "height": 44
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#member\">",
+            "nodeLabel": "Position Options",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-261-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV",
+                  "selector": "div.col-lg-12 > div.field > div > div",
+                  "boundingRect": {
+                    "top": 862,
+                    "bottom": 1197,
+                    "left": 225,
+                    "right": 367,
+                    "width": 142,
+                    "height": 334
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 2%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump To:\nTraditional Corps\nFEMA Corps\nPosition Options\nCampuses and Regions\nGet…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-102-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,1,UL,3,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1059,
+              "bottom": 1127,
+              "left": 265,
+              "right": 341,
+              "width": 76,
+              "height": 68
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#NCCCcampus\">",
+            "nodeLabel": "Campuses and Regions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-261-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV",
+                  "selector": "div.col-lg-12 > div.field > div > div",
+                  "boundingRect": {
+                    "top": 862,
+                    "bottom": 1197,
+                    "left": 225,
+                    "right": 367,
+                    "width": 142,
+                    "height": 334
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 2%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump To:\nTraditional Corps\nFEMA Corps\nPosition Options\nCampuses and Regions\nGet…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-103-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,1,UL,4,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1131,
+              "bottom": 1175,
+              "left": 265,
+              "right": 309,
+              "width": 44,
+              "height": 44
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#get-in-touch\">",
+            "nodeLabel": "Get in Touch",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-261-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV",
+                  "selector": "div.col-lg-12 > div.field > div > div",
+                  "boundingRect": {
+                    "top": 862,
+                    "bottom": 1197,
+                    "left": 225,
+                    "right": 367,
+                    "width": 142,
+                    "height": 334
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 2%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump To:\nTraditional Corps\nFEMA Corps\nPosition Options\nCampuses and Regions\nGet…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-262-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,12,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.row > div.col-lg-12 > div.field > h4.text-align-center",
+            "boundingRect": {
+              "top": 6674,
+              "bottom": 6719,
+              "left": 45,
+              "right": 367,
+              "width": 322,
+              "height": 44
+            },
+            "snippet": "<h4 class=\"text-align-center\">",
+            "nodeLabel": "Team Life in AmeriCorps NCCC\n ",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

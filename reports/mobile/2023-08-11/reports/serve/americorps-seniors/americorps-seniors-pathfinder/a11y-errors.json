@@ -1,0 +1,170 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu > a.parent-link",
+            "boundingRect": {
+              "top": 616,
+              "bottom": 634,
+              "left": 60,
+              "right": 248,
+              "width": 188,
+              "height": 18
+            },
+            "snippet": "<a href=\"/serve/americorps-seniors\" class=\"parent-link\">",
+            "nodeLabel": "AMERICORPS SENIORS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.3 (foreground color: #007bff, background color: #e3eafd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-238-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu",
+                  "boundingRect": {
+                    "top": 589,
+                    "bottom": 659,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 70
+                  },
+                  "snippet": "<div class=\"tertiary-sidebar\" id=\"block-americorpsrelatedcontentmenu\">",
+                  "nodeLabel": "AMERICORPS SENIORS"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-239-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-199706",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13898,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13898
+                  },
+                  "snippet": "<body class=\"page-node-199706 path-node node--type-tertiary-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-199706"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-236-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,FORM,0,DIV,0,DIV,1,DIV,1,DIV,0,INPUT",
+            "selector": "div.row > div.search > div#edit-actions > input#edit-submit-americorps-seniors-pathfinder",
+            "boundingRect": {
+              "top": 1428,
+              "bottom": 1463,
+              "left": 281,
+              "right": 360,
+              "width": 80,
+              "height": 35
+            },
+            "snippet": "<input data-drupal-selector=\"edit-submit-americorps-seniors-pathfinder\" type=\"submit\" id=\"edit-submit-americorps-seniors-pathfinder\" value=\"Apply\" class=\"js-form-submit form-submit btn btn-primary\">",
+            "nodeLabel": "div.row > div.search > div#edit-actions > input#edit-submit-americorps-seniors-pathfinder",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: edit-submit-americorps-seniors-pathfinder"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-240-INPUT",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,FORM,0,DIV,1,DIV,0,DIV,1,DIV,0,INPUT",
+                  "selector": "div.row > div.card-rounded > div#edit-actions > input#edit-submit-americorps-seniors-pathfinder",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<input data-drupal-selector=\"edit-submit-americorps-seniors-pathfinder\" type=\"submit\" id=\"edit-submit-americorps-seniors-pathfinder\" value=\"Apply\" class=\"js-form-submit form-submit btn btn-primary\">",
+                  "nodeLabel": "div.row > div.card-rounded > div#edit-actions > input#edit-submit-americorps-seniors-pathfinder"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

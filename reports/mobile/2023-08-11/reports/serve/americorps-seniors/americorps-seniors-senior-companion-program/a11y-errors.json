@@ -1,0 +1,367 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 910,
+              "bottom": 930,
+              "left": 256,
+              "right": 316,
+              "width": 60,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#benefits\">",
+            "nodeLabel": "Benefits",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-209-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 838,
+                    "bottom": 1044,
+                    "left": 196,
+                    "right": 397,
+                    "width": 201,
+                    "height": 206
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nBenefits\nEligibility\nHow to Apply\nGet in Touch"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-87-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 934,
+              "bottom": 954,
+              "left": 256,
+              "right": 323,
+              "width": 67,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#eligibility\">",
+            "nodeLabel": "Eligibility",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-209-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 838,
+                    "bottom": 1044,
+                    "left": 196,
+                    "right": 397,
+                    "width": 201,
+                    "height": 206
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nBenefits\nEligibility\nHow to Apply\nGet in Touch"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-88-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 958,
+              "bottom": 978,
+              "left": 256,
+              "right": 357,
+              "width": 101,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#apply\">",
+            "nodeLabel": "How to Apply",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-209-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 838,
+                    "bottom": 1044,
+                    "left": 196,
+                    "right": 397,
+                    "width": 201,
+                    "height": 206
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nBenefits\nEligibility\nHow to Apply\nGet in Touch"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-89-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 982,
+              "bottom": 1002,
+              "left": 256,
+              "right": 348,
+              "width": 92,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#contact\">",
+            "nodeLabel": "Get in Touch",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-209-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 838,
+                    "bottom": 1044,
+                    "left": 196,
+                    "right": 397,
+                    "width": 201,
+                    "height": 206
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nBenefits\nEligibility\nHow to Apply\nGet in Touch"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-210-H2",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H2",
+            "selector": "div.row > div.col-lg-12 > div.field > h2#benefits",
+            "boundingRect": {
+              "top": 2543,
+              "bottom": 2631,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 88
+            },
+            "snippet": "<h2 id=\"benefits\">",
+            "nodeLabel": "Serving with Senior Companions",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: benefits"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-211-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,2,DIV",
+                  "selector": "div.accordian > div.container > div.accordian-section > div#benefits",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"benefits\" class=\"content-block collapse col-10\" aria-labelledby=\"benefits-heading\">",
+                  "nodeLabel": "\n    \n      \n\tHealth and wellness. AmeriCorps Seniors volunteers experience dec…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-212-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.col-lg-12 > div.field > div > h4",
+            "boundingRect": {
+              "top": 878,
+              "bottom": 900,
+              "left": 236,
+              "right": 357,
+              "width": 121,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Jump to:",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-213-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.row > div.col-lg-12 > div.field > h4",
+            "boundingRect": {
+              "top": 4598,
+              "bottom": 4620,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Ask Questions",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-214-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,6,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.row > div.col-lg-12 > div.field > h4",
+            "boundingRect": {
+              "top": 4859,
+              "bottom": 4881,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Sign Up",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

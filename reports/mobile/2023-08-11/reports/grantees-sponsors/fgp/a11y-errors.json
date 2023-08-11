@@ -1,0 +1,338 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-94-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 3327,
+              "bottom": 3387,
+              "left": 49,
+              "right": 336,
+              "width": 287,
+              "height": 60
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/20230306_2023-FGP-…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "*2023 Foster Grandparents and Senior Companions Program Grants Terms and Condit…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-236-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3293,
+                    "bottom": 3435,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 142
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "*2023 Foster Grandparents and Senior Companions Program Grants Terms and Condit…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-95-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 3503,
+              "bottom": 3523,
+              "left": 49,
+              "right": 165,
+              "width": 116,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/FGP-Handbook_2023.…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "*FGP Handbook",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-237-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3469,
+                    "bottom": 3571,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 102
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "*FGP Handbook"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-96-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 3639,
+              "bottom": 3659,
+              "left": 49,
+              "right": 324,
+              "width": 275,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/FY2022-General-Ter…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "*General Terms and Conditions (2022)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-238-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3605,
+                    "bottom": 3807,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 202
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "*General Terms and Conditions (2022)\nPlease ensure you are using the correct Ge…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-97-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 3875,
+              "bottom": 3895,
+              "left": 49,
+              "right": 324,
+              "width": 275,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/FY2023-General-Ter…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "*General Terms and Conditions (2023)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-239-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3841,
+                    "bottom": 3943,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 102
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "*General Terms and Conditions (2023)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-98-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 4011,
+              "bottom": 4051,
+              "left": 49,
+              "right": 349,
+              "width": 300,
+              "height": 40
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/AmeriCorps_Seniors…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "*Grant Application Instructions - updated 10/6/22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-240-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 3977,
+                    "bottom": 4099,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 122
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "*Grant Application Instructions - updated 10/6/22"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-99-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.card-rounded > div.views-field > div.field-content > a.file-download",
+            "boundingRect": {
+              "top": 4167,
+              "bottom": 4227,
+              "left": 49,
+              "right": 363,
+              "width": 314,
+              "height": 60
+            },
+            "snippet": "<a href=\"https://www.americorps.gov/sites/default/files/document/20141217_FGP_SCPFi…\" class=\"file-download file-download-application file-download-pdf\" target=\"_blank\">",
+            "nodeLabel": "2015 Foster Grandparents and Senior Companions Program Fixed Amount Grants Term…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-241-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV",
+                  "selector": "div.view > div.view-content > div.col-md-6 > div.card-rounded",
+                  "boundingRect": {
+                    "top": 4133,
+                    "bottom": 4275,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 142
+                  },
+                  "snippet": "<div class=\"card-rounded\">",
+                  "nodeLabel": "2015 Foster Grandparents and Senior Companions Program Fixed Amount Grants Term…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-242-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,NAV,0,H4",
+            "selector": "div > div.view > nav > h4#pagination-heading",
+            "boundingRect": {
+              "top": 4389,
+              "bottom": 4390,
+              "left": 15,
+              "right": 16,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<h4 id=\"pagination-heading\" class=\"visually-hidden\">",
+            "nodeLabel": "Pagination",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

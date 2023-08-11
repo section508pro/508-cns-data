@@ -1,0 +1,244 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-159-A",
+            "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,FORM,3,DIV,1,LABEL,2,A",
+            "selector": "form > div#prefix-consent-outer > label#prefix-consentPolicyLabel > a",
+            "boundingRect": {
+              "top": 218,
+              "bottom": 233,
+              "left": 274,
+              "right": 372,
+              "width": 98,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://subscriberhelp.granicus.com/s/article/Privacy\" target=\"_blank\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "data privacy policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-219-DIV",
+                  "path": "1,HTML,1,BODY,7,DIV,2,DIV",
+                  "selector": "body.page-node-43151 > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 361,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 361
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-labelledby=\"prefix-overlay-header\" aria-describedby=\"prefix-overlay-step1\" aria-modal=\"true\">",
+                  "nodeLabel": "Sign up to stay informed!\nClose subscription dialog\nGet email updates and alert…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-160-A",
+            "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,4,DIV,1,A",
+            "selector": "div#prefix-overlay-outer > div.prefix-overlay-inner > div#prefix-overlay-footer > a",
+            "boundingRect": {
+              "top": 318,
+              "bottom": 331,
+              "left": 204,
+              "right": 265,
+              "width": 61,
+              "height": 13
+            },
+            "snippet": "<a href=\"https://americorps.gov/about/agency-overview/privacy-policy\" style=\"color:#3276b1; text-decoration:underline;\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3276b1, background color: #f2f2f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-219-DIV",
+                  "path": "1,HTML,1,BODY,7,DIV,2,DIV",
+                  "selector": "body.page-node-43151 > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 361,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 361
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-labelledby=\"prefix-overlay-header\" aria-describedby=\"prefix-overlay-step1\" aria-modal=\"true\">",
+                  "nodeLabel": "Sign up to stay informed!\nClose subscription dialog\nGet email updates and alert…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-220-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.card > div.content > div.views-field > h4.field-content",
+            "boundingRect": {
+              "top": 773,
+              "bottom": 856,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 83
+            },
+            "snippet": "<h4 class=\"field-content\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-221-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IMG",
+            "selector": "div.col-lg-12 > div.field > p > img",
+            "boundingRect": {
+              "top": 2671,
+              "bottom": 2914,
+              "left": 15,
+              "right": 394,
+              "width": 379,
+              "height": 243
+            },
+            "snippet": "<img src=\"https://americorps.gov/sites/default/files/styles/large/public/image/2020_…\" style=\"height: 243px; width:379px; border-radius: 14px;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > p > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-222-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IMG",
+            "selector": "div.col-lg-12 > div.field > p > img",
+            "boundingRect": {
+              "top": 3234,
+              "bottom": 3477,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 243
+            },
+            "snippet": "<img src=\"https://americorps.gov/sites/default/files/image/Photo%201_edited-030223.j…\" style=\"height: 243px; width: 444px; border-radius: 14px;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > p > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

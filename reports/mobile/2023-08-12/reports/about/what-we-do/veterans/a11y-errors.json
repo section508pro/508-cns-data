@@ -1,0 +1,179 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu > a.parent-link",
+            "boundingRect": {
+              "top": 698,
+              "bottom": 716,
+              "left": 60,
+              "right": 180,
+              "width": 120,
+              "height": 18
+            },
+            "snippet": "<a href=\"/about/what-we-do\" class=\"parent-link\">",
+            "nodeLabel": "WHAT WE DO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.3 (foreground color: #007bff, background color: #e3eafd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-213-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu",
+                  "boundingRect": {
+                    "top": 671,
+                    "bottom": 741,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 70
+                  },
+                  "snippet": "<div class=\"tertiary-sidebar\" id=\"block-americorpsrelatedcontentmenu\">",
+                  "nodeLabel": "WHAT WE DO"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-214-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-250221",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11073,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11073
+                  },
+                  "snippet": "<body class=\"page-node-250221 path-node node--type-tertiary-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-250221"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-215-P",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,0,P",
+            "selector": "div.container > div.row > div.col-12 > p.quote",
+            "boundingRect": {
+              "top": 7614,
+              "bottom": 8052,
+              "left": 45,
+              "right": 367,
+              "width": 322,
+              "height": 438
+            },
+            "snippet": "<p class=\"quote q h2\">",
+            "nodeLabel": "It is a great opportunity to be able to help meet the needs of my fellow Vetera…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.39 (foreground color: #b9cbf9, background color: #e8eefd, font size: 26.3pt (35px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-216-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,11,DIV",
+                  "selector": "div.content > article > div.field > div.story",
+                  "boundingRect": {
+                    "top": 7564,
+                    "bottom": 8257,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 692
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth lightblue\">",
+                  "nodeLabel": "It is a great opportunity to be able to help meet the needs of my fellow Vetera…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-217-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,11,DIV,0,DIV,0,DIV,1,DIV,0,A,0,SPAN,0,SPAN",
+            "selector": "div.col-8 > a.aos-init > span.normal > span.name",
+            "boundingRect": {
+              "top": 8113,
+              "bottom": 8193,
+              "left": 45,
+              "right": 250,
+              "width": 205,
+              "height": 80
+            },
+            "snippet": "<span class=\"name h3\">",
+            "nodeLabel": "Loretta Coleman, Americorps Member",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.54 (foreground color: #b9c2d4, background color: #e8eefd, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-216-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,11,DIV",
+                  "selector": "div.content > article > div.field > div.story",
+                  "boundingRect": {
+                    "top": 7564,
+                    "bottom": 8257,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 692
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth lightblue\">",
+                  "nodeLabel": "It is a great opportunity to be able to help meet the needs of my fellow Vetera…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

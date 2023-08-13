@@ -1,0 +1,201 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-87-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu > a.parent-link",
+            "boundingRect": {
+              "top": 540,
+              "bottom": 578,
+              "left": 60,
+              "right": 281,
+              "width": 221,
+              "height": 38
+            },
+            "snippet": "<a href=\"/serve/volunteer/mlk-day\" class=\"parent-link\">",
+            "nodeLabel": "MARTIN LUTHER KING, JR., NATIONAL DAY OF SERVICE",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.3 (foreground color: #007bff, background color: #e3eafd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-255-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu",
+                  "boundingRect": {
+                    "top": 513,
+                    "bottom": 603,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 90
+                  },
+                  "snippet": "<div class=\"tertiary-sidebar\" id=\"block-americorpsrelatedcontentmenu\">",
+                  "nodeLabel": "MARTIN LUTHER KING, JR., NATIONAL DAY OF SERVICE"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-256-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-199646",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 6883,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 6883
+                  },
+                  "snippet": "<body class=\"page-node-199646 path-node node--type-tertiary-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-199646"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-257-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.row > div.col-lg-12 > div.field > h4",
+            "boundingRect": {
+              "top": 3101,
+              "bottom": 3145,
+              "left": 45,
+              "right": 367,
+              "width": 322,
+              "height": 44
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "\nKing Day of Service Projects 2023",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-258-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,H2,0,IMG",
+            "selector": "div.col-lg-12 > div.field > h2 > img",
+            "boundingRect": {
+              "top": 671,
+              "bottom": 871,
+              "left": 167,
+              "right": 367,
+              "width": 200,
+              "height": 200
+            },
+            "snippet": "<img src=\"/sites/default/files/image/mlk-day-2023-social-graphic.jpg\" style=\"float: right; margin-left: 5%; height:200px; width:200px;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > h2 > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

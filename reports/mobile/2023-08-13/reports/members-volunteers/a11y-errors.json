@@ -1,0 +1,412 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-213-P",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,9,DIV,0,DIV,0,DIV,0,DIV,0,P",
+            "selector": "div.container > div.row > div.col-12 > p.quote",
+            "boundingRect": {
+              "top": 8993,
+              "bottom": 9343,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 350
+            },
+            "snippet": "<p class=\"quote q h2\">",
+            "nodeLabel": "In 2010, Dolores and Martin almost missed the Volunteer Appreciation Tea becaus…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #507cf2, background color: #1550ed, font size: 26.3pt (35px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-214-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,9,DIV",
+                  "selector": "article > div > div.field > div.story",
+                  "boundingRect": {
+                    "top": 8993,
+                    "bottom": 9548,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 555
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth blue\">",
+                  "nodeLabel": "In 2010, Dolores and Martin almost missed the Volunteer Appreciation Tea becaus…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-215-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,9,DIV,0,DIV,0,DIV,1,DIV,0,A,0,SPAN,0,SPAN",
+            "selector": "div.col-8 > a.aos-init > span.normal > span.name",
+            "boundingRect": {
+              "top": 9404,
+              "bottom": 9484,
+              "left": 15,
+              "right": 260,
+              "width": 245,
+              "height": 80
+            },
+            "snippet": "<span class=\"name h3\">",
+            "nodeLabel": "Martin & Dolores Steiner, Americorps Seniors Volunteer",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.61 (foreground color: #507cf2, background color: #1550ed, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-214-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,9,DIV",
+                  "selector": "article > div > div.field > div.story",
+                  "boundingRect": {
+                    "top": 8993,
+                    "bottom": 9548,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 555
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth blue\">",
+                  "nodeLabel": "In 2010, Dolores and Martin almost missed the Volunteer Appreciation Tea becaus…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-97-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 9891,
+              "bottom": 9974,
+              "left": 15,
+              "right": 348,
+              "width": 333,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/low-income-americans-receive-record-84-million-tax…\" hreflang=\"en\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.67 (foreground color: #c3c8d0, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-216-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172431",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13905,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13905
+                  },
+                  "snippet": "<body class=\"page-node-172431 path-node node--type-landing-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172431"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-217-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 10074,
+              "bottom": 10090,
+              "left": 15,
+              "right": 119,
+              "width": 104,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 20, 2024",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.67 (foreground color: #c3c8d0, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-216-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172431",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13905,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13905
+                  },
+                  "snippet": "<body class=\"page-node-172431 path-node node--type-landing-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172431"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-98-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 10145,
+              "bottom": 10256,
+              "left": 15,
+              "right": 373,
+              "width": 358,
+              "height": 111
+            },
+            "snippet": "<a href=\"/newsroom/press-release/185000-americans-be-recruited-across-nation-911-ml…\" hreflang=\"en\">",
+            "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.67 (foreground color: #c3c8d0, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-216-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172431",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13905,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13905
+                  },
+                  "snippet": "<body class=\"page-node-172431 path-node node--type-landing-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172431"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-218-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 10352,
+              "bottom": 10368,
+              "left": 15,
+              "right": 135,
+              "width": 120,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "AUGUST 8, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.67 (foreground color: #c3c8d0, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-216-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172431",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13905,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13905
+                  },
+                  "snippet": "<body class=\"page-node-172431 path-node node--type-landing-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172431"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-219-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "boundingRect": {
+              "top": 6040,
+              "bottom": 6255,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 215
+            },
+            "snippet": "<iframe width=\"854\" height=\"480\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/CYLeup1J_gk?autoplay=0&amp;start=0&amp;rel=0\">",
+            "nodeLabel": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-220-H6",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,H6",
+            "selector": "div.row > div.col-lg-12 > div.field > h6",
+            "boundingRect": {
+              "top": 6289,
+              "bottom": 6345,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 56
+            },
+            "snippet": "<h6>",
+            "nodeLabel": "The above video may include external links to YouTube’s video platform. YouTube…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-221-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.card > div.content > div.views-field > h4.field-content",
+            "boundingRect": {
+              "top": 9892,
+              "bottom": 9975,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 83
+            },
+            "snippet": "<h4 class=\"field-content\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

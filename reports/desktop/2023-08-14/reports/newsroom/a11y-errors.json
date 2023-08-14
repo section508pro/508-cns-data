@@ -1,0 +1,487 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-84-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 982,
+              "bottom": 1147,
+              "left": 140,
+              "right": 350,
+              "width": 210,
+              "height": 166
+            },
+            "snippet": "<a href=\"/newsroom/press-release/low-income-americans-receive-record-84-million-tax…\" hreflang=\"en\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #cacfd5, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 969,
+                    "bottom": 1671,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 702
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-85-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 982,
+              "bottom": 1175,
+              "left": 425,
+              "right": 640,
+              "width": 215,
+              "height": 193
+            },
+            "snippet": "<a href=\"/newsroom/press-release/185000-americans-be-recruited-across-nation-911-ml…\" hreflang=\"en\">",
+            "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #cacfd5, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 969,
+                    "bottom": 1671,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 702
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 982,
+              "bottom": 1175,
+              "left": 710,
+              "right": 903,
+              "width": 193,
+              "height": 193
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-increases-minimum-living-healthcare-all…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Increases Minimum Living, Healthcare Allowances for Members Serving …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #cacfd5, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 969,
+                    "bottom": 1671,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 702
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-87-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 982,
+              "bottom": 1230,
+              "left": 995,
+              "right": 1195,
+              "width": 200,
+              "height": 248
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-announces-millions-funding-student-cons…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Announces Millions in Funding for Student Conservation Association, …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #cacfd5, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 969,
+                    "bottom": 1671,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 702
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-159-A",
+            "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,FORM,3,DIV,1,LABEL,2,A",
+            "selector": "form > div#prefix-consent-outer > label#prefix-consentPolicyLabel > a",
+            "boundingRect": {
+              "top": 1113,
+              "bottom": 1128,
+              "left": 1212,
+              "right": 1310,
+              "width": 98,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://subscriberhelp.granicus.com/s/article/Privacy\" target=\"_blank\" rel=\"noopener noreferrer\">",
+            "nodeLabel": "data privacy policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f2, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-219-DIV",
+                  "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,1,DIV",
+                  "selector": "div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer > div.prefix-overlay-inner > div#prefix-overlay-step1",
+                  "boundingRect": {
+                    "top": 943,
+                    "bottom": 1323,
+                    "left": 946,
+                    "right": 1340,
+                    "width": 394,
+                    "height": 380
+                  },
+                  "snippet": "<div id=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Get email updates and alerts.\n By checking this box, you consent to our data pr…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-160-A",
+            "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,4,DIV,1,A",
+            "selector": "div#prefix-overlay-outer > div.prefix-overlay-inner > div#prefix-overlay-footer > a",
+            "boundingRect": {
+              "top": 1210,
+              "bottom": 1223,
+              "left": 1141,
+              "right": 1202,
+              "width": 61,
+              "height": 13
+            },
+            "snippet": "<a href=\"https://americorps.gov/about/agency-overview/privacy-policy\" style=\"color:#3276b1; text-decoration:underline;\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #3276b1, background color: #f2f2f2, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-219-DIV",
+                  "path": "1,HTML,1,BODY,7,DIV,2,DIV,0,DIV,1,DIV",
+                  "selector": "div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer > div.prefix-overlay-inner > div#prefix-overlay-step1",
+                  "boundingRect": {
+                    "top": 943,
+                    "bottom": 1323,
+                    "left": 946,
+                    "right": 1340,
+                    "width": 394,
+                    "height": 380
+                  },
+                  "snippet": "<div id=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Get email updates and alerts.\n By checking this box, you consent to our data pr…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-220-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.card > div.content > div.views-field > h4.field-content",
+            "boundingRect": {
+              "top": 983,
+              "bottom": 1148,
+              "left": 140,
+              "right": 355,
+              "width": 215,
+              "height": 165
+            },
+            "snippet": "<h4 class=\"field-content\">",
+            "nodeLabel": "Low-Income Americans Receive Record $84 Million in Tax Relief in Nationwide Ame…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-221-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IMG",
+            "selector": "div.col-lg-12 > div.field > p > img",
+            "boundingRect": {
+              "top": 2166,
+              "bottom": 2409,
+              "left": 120,
+              "right": 499,
+              "width": 379,
+              "height": 243
+            },
+            "snippet": "<img src=\"https://americorps.gov/sites/default/files/styles/large/public/image/2020_…\" style=\"height: 243px; width:379px; border-radius: 14px;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > p > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-222-IMG",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,P,0,IMG",
+            "selector": "div.col-lg-12 > div.field > p > img",
+            "boundingRect": {
+              "top": 2166,
+              "bottom": 2409,
+              "left": 785,
+              "right": 1229,
+              "width": 444,
+              "height": 243
+            },
+            "snippet": "<img src=\"https://americorps.gov/sites/default/files/image/Photo%201_edited-030223.j…\" style=\"height: 243px; width: 444px; border-radius: 14px;\">",
+            "nodeLabel": "div.col-lg-12 > div.field > p > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-223-UL",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL",
+            "selector": "nav.navbar > div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav",
+            "boundingRect": {
+              "top": 34,
+              "bottom": 123,
+              "left": 304,
+              "right": 979,
+              "width": 675,
+              "height": 89
+            },
+            "snippet": "<ul class=\"navbar-nav\">",
+            "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-224-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav > div.menu-region",
+                  "boundingRect": {
+                    "top": 34,
+                    "bottom": 123,
+                    "left": 304,
+                    "right": 979,
+                    "width": 675,
+                    "height": 89
+                  },
+                  "snippet": "<div class=\"menu-region\">",
+                  "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

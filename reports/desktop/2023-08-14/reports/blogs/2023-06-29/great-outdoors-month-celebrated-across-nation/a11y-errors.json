@@ -1,0 +1,236 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-203-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SPAN",
+            "selector": "div.content > article > div > span.blog-post-date",
+            "boundingRect": {
+              "top": 1064,
+              "bottom": 1082,
+              "left": 320,
+              "right": 1030,
+              "width": 710,
+              "height": 18
+            },
+            "snippet": "<span class=\"blog-post-date\">",
+            "nodeLabel": "Jun 29, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-204-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373741",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5992,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 5992
+                  },
+                  "snippet": "<body class=\"page-node-373741 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373741"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-205-EM",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,6,FIGURE,1,FIGCAPTION,0,EM",
+            "selector": "div.field > figure.align-center > figcaption > em",
+            "boundingRect": {
+              "top": 2874,
+              "bottom": 2892,
+              "left": 320,
+              "right": 871,
+              "width": 551,
+              "height": 18
+            },
+            "snippet": "<em>",
+            "nodeLabel": "AmeriCorps members participating in the National Service and Conservation Corps…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-204-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373741",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5992,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 5992
+                  },
+                  "snippet": "<body class=\"page-node-373741 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373741"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-206-EM",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,11,FIGURE,1,FIGCAPTION,0,EM",
+            "selector": "div.field > figure.align-center > figcaption > em",
+            "boundingRect": {
+              "top": 3690,
+              "bottom": 3708,
+              "left": 320,
+              "right": 638,
+              "width": 318,
+              "height": 18
+            },
+            "snippet": "<em>",
+            "nodeLabel": "AmeriCorps member Chiena with President Biden ",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-204-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373741",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 5992,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 5992
+                  },
+                  "snippet": "<body class=\"page-node-373741 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373741"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-207-UL",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL",
+            "selector": "nav.navbar > div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav",
+            "boundingRect": {
+              "top": 34,
+              "bottom": 123,
+              "left": 304,
+              "right": 979,
+              "width": 675,
+              "height": 89
+            },
+            "snippet": "<ul class=\"navbar-nav\">",
+            "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-208-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav > div.menu-region",
+                  "boundingRect": {
+                    "top": 34,
+                    "bottom": 123,
+                    "left": 304,
+                    "right": 979,
+                    "width": 675,
+                    "height": 89
+                  },
+                  "snippet": "<div class=\"menu-region\">",
+                  "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

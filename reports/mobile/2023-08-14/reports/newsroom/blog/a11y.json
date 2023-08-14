@@ -1,0 +1,1306 @@
+[
+  {
+    "id": "accesskeys",
+    "title": "`[accesskey]` values are unique",
+    "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://web.dev/accesskeys/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-hidden-body",
+    "title": "`[aria-hidden=\"true\"]` is not present on the document `<body>`",
+    "description": "Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn more](https://web.dev/aria-hidden-body/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements do not contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-meter-name",
+    "title": "ARIA `meter` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-progressbar-name",
+    "title": "ARIA `progressbar` elements have accessible names",
+    "description": "When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-attr",
+    "title": "`[role]`s have all required `[aria-*]` attributes",
+    "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://web.dev/aria-required-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-roles",
+    "title": "`[role]` values are valid",
+    "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-toggle-field-name",
+    "title": "ARIA toggle fields have accessible names",
+    "description": "When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-tooltip-name",
+    "title": "ARIA `tooltip` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-treeitem-name",
+    "title": "ARIA `treeitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-valid-attr",
+    "title": "`[aria-*]` attributes are valid and not misspelled",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://web.dev/aria-valid-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "button-name",
+    "title": "Buttons have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "bypass",
+    "title": "The page contains a heading, skip link, or landmark region",
+    "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://web.dev/bypass/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 1850,
+              "bottom": 1934,
+              "left": 40,
+              "right": 337,
+              "width": 297,
+              "height": 84
+            },
+            "snippet": "<a href=\"/blogs/2023-07-20/summer-remember-my-familys-inspiration-make-difference-c…\" hreflang=\"en\">",
+            "nodeLabel": "A Summer to Remember: My Family’s Inspiration to Make a Difference in Communiti…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 1825,
+                    "bottom": 2105,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "A Summer to Remember: My Family’s Inspiration to Make a Difference in Communiti…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-219-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 2064,
+              "bottom": 2105,
+              "left": 40,
+              "right": 143,
+              "width": 103,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JULY 20, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 1825,
+                    "bottom": 2105,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "A Summer to Remember: My Family’s Inspiration to Make a Difference in Communiti…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-87-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 2355,
+              "bottom": 2411,
+              "left": 40,
+              "right": 285,
+              "width": 245,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-07-14/five-things-do-your-twenties\" hreflang=\"en\">",
+            "nodeLabel": "Five Things to Do in Your Twenties",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-220-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 2330,
+                    "bottom": 2610,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Five Things to Do in Your Twenties\nJULY 14, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-221-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 2569,
+              "bottom": 2610,
+              "left": 40,
+              "right": 140,
+              "width": 100,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JULY 14, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-220-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 2330,
+                    "bottom": 2610,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Five Things to Do in Your Twenties\nJULY 14, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-88-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 2860,
+              "bottom": 2916,
+              "left": 40,
+              "right": 312,
+              "width": 272,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-07-06/make-difference-choose-americorps\" hreflang=\"en\">",
+            "nodeLabel": "Make a Difference. Choose AmeriCorps.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 2835,
+                    "bottom": 3115,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Make a Difference. Choose AmeriCorps.\nJULY 6, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-223-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 3074,
+              "bottom": 3115,
+              "left": 40,
+              "right": 133,
+              "width": 93,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JULY 6, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 2835,
+                    "bottom": 3115,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Make a Difference. Choose AmeriCorps.\nJULY 6, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-89-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 3365,
+              "bottom": 3421,
+              "left": 40,
+              "right": 336,
+              "width": 296,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-06-29/great-outdoors-month-celebrated-across-nation\" hreflang=\"en\">",
+            "nodeLabel": "Great Outdoors Month Celebrated Across the Nation",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-224-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 3340,
+                    "bottom": 3620,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Great Outdoors Month Celebrated Across the Nation\nJUNE 29, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-225-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 3579,
+              "bottom": 3620,
+              "left": 40,
+              "right": 145,
+              "width": 105,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JUNE 29, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-224-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 3340,
+                    "bottom": 3620,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Great Outdoors Month Celebrated Across the Nation\nJUNE 29, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-90-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 3870,
+              "bottom": 3926,
+              "left": 40,
+              "right": 364,
+              "width": 324,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-06-16/father-child-passing-value-service\" hreflang=\"en\">",
+            "nodeLabel": "From Father to Child, Passing on the Value of Service",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-226-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 3845,
+                    "bottom": 4125,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "From Father to Child, Passing on the Value of Service\nJUNE 16, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-227-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 4084,
+              "bottom": 4125,
+              "left": 40,
+              "right": 142,
+              "width": 102,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JUNE 16, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-226-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 3845,
+                    "bottom": 4125,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "From Father to Child, Passing on the Value of Service\nJUNE 16, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-91-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 4375,
+              "bottom": 4487,
+              "left": 40,
+              "right": 370,
+              "width": 330,
+              "height": 112
+            },
+            "snippet": "<a href=\"/blogs/2023-06-08/conservation-education-americorps-members-make-differenc…\" hreflang=\"en\">",
+            "nodeLabel": "From Conservation to Education, AmeriCorps Members Make a Difference for Animal…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-228-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 4350,
+                    "bottom": 4630,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "From Conservation to Education, AmeriCorps Members Make a Difference for Animal…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-229-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 4589,
+              "bottom": 4630,
+              "left": 40,
+              "right": 136,
+              "width": 96,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JUNE 8, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-228-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 4350,
+                    "bottom": 4630,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "From Conservation to Education, AmeriCorps Members Make a Difference for Animal…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-92-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 4880,
+              "bottom": 4964,
+              "left": 40,
+              "right": 361,
+              "width": 321,
+              "height": 84
+            },
+            "snippet": "<a href=\"/blogs/2023-05-26/military-appreciation-month-service-empowers-veterans-mi…\" hreflang=\"en\">",
+            "nodeLabel": "Military Appreciation Month: Service Empowers Veterans and Military Families",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-230-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 4855,
+                    "bottom": 5135,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Military Appreciation Month: Service Empowers Veterans and Military Families\nMA…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-231-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 5094,
+              "bottom": 5135,
+              "left": 40,
+              "right": 138,
+              "width": 98,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "MAY 26, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-230-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 4855,
+                    "bottom": 5135,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Military Appreciation Month: Service Empowers Veterans and Military Families\nMA…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-93-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 5385,
+              "bottom": 5441,
+              "left": 40,
+              "right": 307,
+              "width": 267,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-05-18/americorps-addresses-mental-health-crisis\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Addresses the Mental Health Crisis",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-232-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5360,
+                    "bottom": 5640,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "AmeriCorps Addresses the Mental Health Crisis\nMAY 18, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-233-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 5599,
+              "bottom": 5640,
+              "left": 40,
+              "right": 135,
+              "width": 95,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "MAY 18, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-232-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5360,
+                    "bottom": 5640,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "AmeriCorps Addresses the Mental Health Crisis\nMAY 18, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-94-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 5890,
+              "bottom": 5946,
+              "left": 40,
+              "right": 365,
+              "width": 325,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-05-15/feeding-hungry-reaping-harvest\" hreflang=\"en\">",
+            "nodeLabel": "Feeding the Hungry, Reaping the Harvest",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-234-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5865,
+                    "bottom": 6145,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Feeding the Hungry, Reaping the Harvest\nMAY 15, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-235-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 6104,
+              "bottom": 6145,
+              "left": 40,
+              "right": 135,
+              "width": 95,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "MAY 15, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-234-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5865,
+                    "bottom": 6145,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Feeding the Hungry, Reaping the Harvest\nMAY 15, 2023"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 18
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "dlitem",
+    "title": "Definition list items are wrapped in `<dl>` elements",
+    "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "document-title",
+    "title": "Document has a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "form-field-multiple-labels",
+    "title": "No form fields have multiple labels",
+    "description": "Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn more](https://web.dev/form-field-multiple-labels/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-236-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,NAV,0,H4",
+            "selector": "div > div.blog-view > nav > h4#pagination-heading",
+            "boundingRect": {
+              "top": 6250,
+              "bottom": 6251,
+              "left": 15,
+              "right": 16,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<h4 id=\"pagination-heading\" class=\"visually-hidden\">",
+            "nodeLabel": "Pagination",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element has a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "html-lang-valid",
+    "title": "`<html>` element has a valid value for its `[lang]` attribute",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "input-image-alt",
+    "title": "`<input type=\"image\">` elements have `[alt]` text",
+    "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://web.dev/input-image-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "label",
+    "title": "Form elements have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "link-name",
+    "title": "Links have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "list",
+    "title": "Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are contained within `<ul>` or `<ol>` parent elements",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "meta-refresh",
+    "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+    "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://web.dev/meta-refresh/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "meta-viewport",
+    "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+    "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "object-alt",
+    "title": "`<object>` elements have alternate text",
+    "description": "Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://web.dev/object-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "tabindex",
+    "title": "No element has a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "td-headers-attr",
+    "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://web.dev/td-headers-attr/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "th-has-data-cells",
+    "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://web.dev/th-has-data-cells/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "valid-lang",
+    "title": "`[lang]` attributes have a valid value",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://web.dev/valid-lang/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "video-caption",
+    "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+    "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://web.dev/video-caption/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "logical-tab-order",
+    "title": "The page has a logical tab order",
+    "description": "Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more](https://web.dev/logical-tab-order/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focusable-controls",
+    "title": "Interactive controls are keyboard focusable",
+    "description": "Custom interactive controls are keyboard focusable and display a focus indicator. [Learn more](https://web.dev/focusable-controls/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "interactive-element-affordance",
+    "title": "Interactive elements indicate their purpose and state",
+    "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn more](https://web.dev/interactive-element-affordance/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "managed-focus",
+    "title": "The user's focus is directed to new content added to the page",
+    "description": "If new content, such as a dialog, is added to the page, the user's focus is directed to it. [Learn more](https://web.dev/managed-focus/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focus-traps",
+    "title": "User focus is not accidentally trapped in a region",
+    "description": "A user can tab into and out of any control or region without accidentally trapping their focus. [Learn more](https://web.dev/focus-traps/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-labels",
+    "title": "Custom controls have associated labels",
+    "description": "Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more](https://web.dev/custom-controls-labels/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-roles",
+    "title": "Custom controls have ARIA roles",
+    "description": "Custom interactive controls have appropriate ARIA roles. [Learn more](https://web.dev/custom-control-roles/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "visual-order-follows-dom",
+    "title": "Visual order on the page follows DOM order",
+    "description": "DOM order matches the visual order, improving navigation for assistive technology. [Learn more](https://web.dev/visual-order-follows-dom/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "offscreen-content-hidden",
+    "title": "Offscreen content is hidden from assistive technology",
+    "description": "Offscreen content is hidden with display: none or aria-hidden=true. [Learn more](https://web.dev/offscreen-content-hidden/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "use-landmarks",
+    "title": "HTML5 landmark elements are used to improve navigation",
+    "description": "Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. [Learn more](https://web.dev/use-landmarks/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 1850,
+              "bottom": 1934,
+              "left": 40,
+              "right": 337,
+              "width": 297,
+              "height": 84
+            },
+            "snippet": "<a href=\"/blogs/2023-07-20/summer-remember-my-familys-inspiration-make-difference-c…\" hreflang=\"en\">",
+            "nodeLabel": "A Summer to Remember: My Family’s Inspiration to Make a Difference in Communiti…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 1825,
+                    "bottom": 2105,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "A Summer to Remember: My Family’s Inspiration to Make a Difference in Communiti…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-219-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 2064,
+              "bottom": 2105,
+              "left": 40,
+              "right": 143,
+              "width": 103,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JULY 20, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-218-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 1825,
+                    "bottom": 2105,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "A Summer to Remember: My Family’s Inspiration to Make a Difference in Communiti…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-87-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 2355,
+              "bottom": 2411,
+              "left": 40,
+              "right": 285,
+              "width": 245,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-07-14/five-things-do-your-twenties\" hreflang=\"en\">",
+            "nodeLabel": "Five Things to Do in Your Twenties",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-220-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 2330,
+                    "bottom": 2610,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Five Things to Do in Your Twenties\nJULY 14, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-221-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 2569,
+              "bottom": 2610,
+              "left": 40,
+              "right": 140,
+              "width": 100,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JULY 14, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-220-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 2330,
+                    "bottom": 2610,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Five Things to Do in Your Twenties\nJULY 14, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-88-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 2860,
+              "bottom": 2916,
+              "left": 40,
+              "right": 312,
+              "width": 272,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-07-06/make-difference-choose-americorps\" hreflang=\"en\">",
+            "nodeLabel": "Make a Difference. Choose AmeriCorps.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 2835,
+                    "bottom": 3115,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Make a Difference. Choose AmeriCorps.\nJULY 6, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-223-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 3074,
+              "bottom": 3115,
+              "left": 40,
+              "right": 133,
+              "width": 93,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JULY 6, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-222-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 2835,
+                    "bottom": 3115,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Make a Difference. Choose AmeriCorps.\nJULY 6, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-89-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 3365,
+              "bottom": 3421,
+              "left": 40,
+              "right": 336,
+              "width": 296,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-06-29/great-outdoors-month-celebrated-across-nation\" hreflang=\"en\">",
+            "nodeLabel": "Great Outdoors Month Celebrated Across the Nation",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-224-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 3340,
+                    "bottom": 3620,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Great Outdoors Month Celebrated Across the Nation\nJUNE 29, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-225-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 3579,
+              "bottom": 3620,
+              "left": 40,
+              "right": 145,
+              "width": 105,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JUNE 29, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-224-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 3340,
+                    "bottom": 3620,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Great Outdoors Month Celebrated Across the Nation\nJUNE 29, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-90-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 3870,
+              "bottom": 3926,
+              "left": 40,
+              "right": 364,
+              "width": 324,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-06-16/father-child-passing-value-service\" hreflang=\"en\">",
+            "nodeLabel": "From Father to Child, Passing on the Value of Service",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-226-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 3845,
+                    "bottom": 4125,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "From Father to Child, Passing on the Value of Service\nJUNE 16, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-227-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 4084,
+              "bottom": 4125,
+              "left": 40,
+              "right": 142,
+              "width": 102,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JUNE 16, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-226-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 3845,
+                    "bottom": 4125,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "From Father to Child, Passing on the Value of Service\nJUNE 16, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-91-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 4375,
+              "bottom": 4487,
+              "left": 40,
+              "right": 370,
+              "width": 330,
+              "height": 112
+            },
+            "snippet": "<a href=\"/blogs/2023-06-08/conservation-education-americorps-members-make-differenc…\" hreflang=\"en\">",
+            "nodeLabel": "From Conservation to Education, AmeriCorps Members Make a Difference for Animal…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-228-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 4350,
+                    "bottom": 4630,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "From Conservation to Education, AmeriCorps Members Make a Difference for Animal…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-229-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 4589,
+              "bottom": 4630,
+              "left": 40,
+              "right": 136,
+              "width": 96,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "JUNE 8, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-228-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 4350,
+                    "bottom": 4630,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "From Conservation to Education, AmeriCorps Members Make a Difference for Animal…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-92-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 4880,
+              "bottom": 4964,
+              "left": 40,
+              "right": 361,
+              "width": 321,
+              "height": 84
+            },
+            "snippet": "<a href=\"/blogs/2023-05-26/military-appreciation-month-service-empowers-veterans-mi…\" hreflang=\"en\">",
+            "nodeLabel": "Military Appreciation Month: Service Empowers Veterans and Military Families",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-230-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 4855,
+                    "bottom": 5135,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Military Appreciation Month: Service Empowers Veterans and Military Families\nMA…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-231-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 5094,
+              "bottom": 5135,
+              "left": 40,
+              "right": 138,
+              "width": 98,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "MAY 26, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-230-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 4855,
+                    "bottom": 5135,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Military Appreciation Month: Service Empowers Veterans and Military Families\nMA…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-93-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 5385,
+              "bottom": 5441,
+              "left": 40,
+              "right": 307,
+              "width": 267,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-05-18/americorps-addresses-mental-health-crisis\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Addresses the Mental Health Crisis",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-232-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5360,
+                    "bottom": 5640,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "AmeriCorps Addresses the Mental Health Crisis\nMAY 18, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-233-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 5599,
+              "bottom": 5640,
+              "left": 40,
+              "right": 135,
+              "width": 95,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "MAY 18, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-232-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5360,
+                    "bottom": 5640,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "AmeriCorps Addresses the Mental Health Crisis\nMAY 18, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-94-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.content > div.lower-content > div.title > a",
+            "boundingRect": {
+              "top": 5890,
+              "bottom": 5946,
+              "left": 40,
+              "right": 365,
+              "width": 325,
+              "height": 56
+            },
+            "snippet": "<a href=\"/blogs/2023-05-15/feeding-hungry-reaping-harvest\" hreflang=\"en\">",
+            "nodeLabel": "Feeding the Hungry, Reaping the Harvest",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-234-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5865,
+                    "bottom": 6145,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Feeding the Hungry, Reaping the Harvest\nMAY 15, 2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-235-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV,1,DIV",
+            "selector": "div.col-12 > div.content > div.lower-content > div.date",
+            "boundingRect": {
+              "top": 6104,
+              "bottom": 6145,
+              "left": 40,
+              "right": 135,
+              "width": 95,
+              "height": 41
+            },
+            "snippet": "<div class=\"date\">",
+            "nodeLabel": "MAY 15, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.83 (foreground color: #3f4f66, background color: #112542, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-234-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV",
+                  "selector": "div.view-content > div.col-12 > div.content > div.lower-content",
+                  "boundingRect": {
+                    "top": 5865,
+                    "bottom": 6145,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 280
+                  },
+                  "snippet": "<div class=\"lower-content\">",
+                  "nodeLabel": "Feeding the Hungry, Reaping the Harvest\nMAY 15, 2023"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 18
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-236-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,NAV,0,H4",
+            "selector": "div > div.blog-view > nav > h4#pagination-heading",
+            "boundingRect": {
+              "top": 6250,
+              "bottom": 6251,
+              "left": 15,
+              "right": 16,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<h4 id=\"pagination-heading\" class=\"visually-hidden\">",
+            "nodeLabel": "Pagination",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

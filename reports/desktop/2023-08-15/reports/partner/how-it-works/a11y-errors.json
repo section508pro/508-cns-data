@@ -1,0 +1,128 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-212-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,13,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.row > div.col-lg-12 > div.field > h4",
+            "boundingRect": {
+              "top": 4521,
+              "bottom": 4543,
+              "left": 152,
+              "right": 438,
+              "width": 286,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "1. Terms and Conditions",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-213-UL",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL",
+            "selector": "nav.navbar > div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav",
+            "boundingRect": {
+              "top": 34,
+              "bottom": 123,
+              "left": 304,
+              "right": 979,
+              "width": 675,
+              "height": 89
+            },
+            "snippet": "<ul class=\"navbar-nav\">",
+            "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-214-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav > div.menu-region",
+                  "boundingRect": {
+                    "top": 34,
+                    "bottom": 123,
+                    "left": 304,
+                    "right": 979,
+                    "width": 675,
+                    "height": 89
+                  },
+                  "snippet": "<div class=\"menu-region\">",
+                  "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

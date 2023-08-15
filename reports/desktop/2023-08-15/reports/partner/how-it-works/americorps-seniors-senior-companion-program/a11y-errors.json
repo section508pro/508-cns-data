@@ -1,0 +1,221 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu > a.parent-link",
+            "boundingRect": {
+              "top": 695,
+              "bottom": 713,
+              "left": 165,
+              "right": 302,
+              "width": 137,
+              "height": 18
+            },
+            "snippet": "<a href=\"/partner/how-it-works\" class=\"parent-link\">",
+            "nodeLabel": "HOW IT WORKS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.3 (foreground color: #007bff, background color: #e3eafd, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-210-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-xl-10 > div.region > div#block-americorpsrelatedcontentmenu",
+                  "boundingRect": {
+                    "top": 668,
+                    "bottom": 1365,
+                    "left": 135,
+                    "right": 413,
+                    "width": 278,
+                    "height": 697
+                  },
+                  "snippet": "<div class=\"tertiary-sidebar\" id=\"block-americorpsrelatedcontentmenu\">",
+                  "nodeLabel": "HOW IT WORKS\nAmeriCorps NCCC\nAmeriCorps Seniors Foster Grandparent Program\nAmer…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-211-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172706",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 3877,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 3877
+                  },
+                  "snippet": "<body class=\"page-node-172706 path-node node--type-tertiary-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172706"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-212-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,0,H4",
+            "selector": "tbody > tr > td > h4",
+            "boundingRect": {
+              "top": 991,
+              "bottom": 1013,
+              "left": 543,
+              "right": 1177,
+              "width": 634,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Examples of Senior Companion Programs",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-213-UL",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL",
+            "selector": "nav.navbar > div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav",
+            "boundingRect": {
+              "top": 34,
+              "bottom": 123,
+              "left": 304,
+              "right": 979,
+              "width": 675,
+              "height": 89
+            },
+            "snippet": "<ul class=\"navbar-nav\">",
+            "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-214-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav > div.menu-region",
+                  "boundingRect": {
+                    "top": 34,
+                    "bottom": 123,
+                    "left": 304,
+                    "right": 979,
+                    "width": 675,
+                    "height": 89
+                  },
+                  "snippet": "<div class=\"menu-region\">",
+                  "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

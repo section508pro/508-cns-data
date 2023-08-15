@@ -1,0 +1,338 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-210-P",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,0,P",
+            "selector": "div.container > div.row > div.col-12 > p.quote",
+            "boundingRect": {
+              "top": 7661,
+              "bottom": 8098,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 438
+            },
+            "snippet": "<p class=\"quote q h2\">",
+            "nodeLabel": "Cindy joined the Phone Pal program in March of 2019 as a volunteer. She develop…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.9 (foreground color: #96b0f7, background color: #1550ed, font size: 26.3pt (35px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-211-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV",
+                  "selector": "article > div > div.field > div.story",
+                  "boundingRect": {
+                    "top": 7661,
+                    "bottom": 8354,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 693
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth blue\">",
+                  "nodeLabel": "Cindy joined the Phone Pal program in March of 2019 as a volunteer. She develop…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-212-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,1,DIV,0,A,0,SPAN,0,SPAN",
+            "selector": "div.col-8 > a.aos-init > span.normal > span.name",
+            "boundingRect": {
+              "top": 8159,
+              "bottom": 8239,
+              "left": 15,
+              "right": 260,
+              "width": 245,
+              "height": 80
+            },
+            "snippet": "<span class=\"name h3\">",
+            "nodeLabel": "Cindy Williams, Americorps Seniors Volunteer",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.9 (foreground color: #96b0f7, background color: #1550ed, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-211-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV",
+                  "selector": "article > div > div.field > div.story",
+                  "boundingRect": {
+                    "top": 7661,
+                    "bottom": 8354,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 693
+                  },
+                  "snippet": "<div class=\"story paragraph-fullwidth blue\">",
+                  "nodeLabel": "Cindy joined the Phone Pal program in March of 2019 as a volunteer. She develop…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-91-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 8587,
+              "bottom": 8697,
+              "left": 15,
+              "right": 373,
+              "width": 358,
+              "height": 111
+            },
+            "snippet": "<a href=\"/newsroom/press-release/185000-americans-be-recruited-across-nation-911-ml…\" hreflang=\"en\">",
+            "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #7c8797, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-213-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172421",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13556,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13556
+                  },
+                  "snippet": "<body class=\"page-node-172421 path-node node--type-landing-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172421"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-214-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 8794,
+              "bottom": 8810,
+              "left": 15,
+              "right": 135,
+              "width": 120,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "AUGUST 8, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #7c8797, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-213-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172421",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13556,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13556
+                  },
+                  "snippet": "<body class=\"page-node-172421 path-node node--type-landing-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172421"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-92-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 8865,
+              "bottom": 8975,
+              "left": 15,
+              "right": 365,
+              "width": 350,
+              "height": 111
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-increases-minimum-living-healthcare-all…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Increases Minimum Living, Healthcare Allowances for Members Serving …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #7c8797, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-213-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172421",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13556,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13556
+                  },
+                  "snippet": "<body class=\"page-node-172421 path-node node--type-landing-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172421"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-215-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 9072,
+              "bottom": 9088,
+              "left": 15,
+              "right": 132,
+              "width": 117,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "AUGUST 1, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #7c8797, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "15-213-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-172421",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 13556,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 13556
+                  },
+                  "snippet": "<body class=\"page-node-172421 path-node node--type-landing-page d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-172421"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-216-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,2,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.card > div.content > div.views-field > h4.field-content",
+            "boundingRect": {
+              "top": 8588,
+              "bottom": 8698,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 110
+            },
+            "snippet": "<h4 class=\"field-content\">",
+            "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

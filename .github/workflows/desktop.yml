@@ -2,7 +2,7 @@ name: Desktop
 on:
   workflow_dispatch:  
   schedule:
-    - cron: '00 09 * * *'  # At 09:00 UTC every day. (3am Denver time) 
+    - cron: '00 11 * * *'  # At 11:00 UTC every day. (5am Denver time) 
   
 jobs:
   build:

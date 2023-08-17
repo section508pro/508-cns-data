@@ -1,0 +1,193 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "35-206-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SPAN",
+            "selector": "div.content > article > div > span.blog-post-date",
+            "boundingRect": {
+              "top": 1229,
+              "bottom": 1247,
+              "left": 30,
+              "right": 382,
+              "width": 352,
+              "height": 18
+            },
+            "snippet": "<span class=\"blog-post-date\">",
+            "nodeLabel": "Jul 06, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "35-207-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373771",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11440,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11440
+                  },
+                  "snippet": "<body class=\"page-node-373771 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373771"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "35-208-EM",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,5,FIGURE,1,FIGCAPTION,0,EM",
+            "selector": "div.field > figure.align-center > figcaption > em",
+            "boundingRect": {
+              "top": 2399,
+              "bottom": 2435,
+              "left": 30,
+              "right": 366,
+              "width": 336,
+              "height": 36
+            },
+            "snippet": "<em>",
+            "nodeLabel": "AmeriCorps members serve in FEMA Corps program, support disaster recovery effor…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "35-207-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373771",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11440,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11440
+                  },
+                  "snippet": "<body class=\"page-node-373771 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373771"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "35-209-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,18,P,0,IFRAME",
+            "selector": "div > div.field > p > iframe",
+            "boundingRect": {
+              "top": 4500,
+              "bottom": 4814,
+              "left": 30,
+              "right": 590,
+              "width": 560,
+              "height": 314
+            },
+            "snippet": "<iframe allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowfullscreen=\"true\" frameborder=\"0\" height=\"314\" scrolling=\"no\" src=\"https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fw…\" style=\"border:none;overflow:hidden\" width=\"560\">",
+            "nodeLabel": "div > div.field > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "35-210-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,24,IFRAME",
+            "selector": "article > div > div.field > iframe#instagram-embed-0",
+            "boundingRect": {
+              "top": 5612,
+              "bottom": 6487,
+              "left": 30,
+              "right": 380,
+              "width": 350,
+              "height": 875
+            },
+            "snippet": "<iframe class=\"instagram-media instagram-media-rendered\" id=\"instagram-embed-0\" src=\"https://www.instagram.com/reel/CsZoHCWv4iY/embed/captioned/?cr=1&amp;v=14&amp;wp=6…\" allowtransparency=\"true\" allowfullscreen=\"true\" frameborder=\"0\" height=\"875\" data-instgrm-payload-id=\"instagram-media-payload-0\" scrolling=\"no\" style=\"background: white; max-width: 540px; width: calc(100% - 2px);\">",
+            "nodeLabel": "article > div > div.field > iframe#instagram-embed-0",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

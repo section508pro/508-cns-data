@@ -1,0 +1,642 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-86-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 905,
+              "bottom": 925,
+              "left": 1066,
+              "right": 1190,
+              "width": 124,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#programs\">",
+            "nodeLabel": "Program Options",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-243-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 833,
+                    "bottom": 1111,
+                    "left": 1006,
+                    "right": 1230,
+                    "width": 224,
+                    "height": 278
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nProgram Options\nPosition Options\nBenefits\nEligibility\nJoin a Webinar\nH…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-87-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 929,
+              "bottom": 949,
+              "left": 1066,
+              "right": 1185,
+              "width": 119,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#positions\">",
+            "nodeLabel": "Position Options",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-243-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 833,
+                    "bottom": 1111,
+                    "left": 1006,
+                    "right": 1230,
+                    "width": 224,
+                    "height": 278
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nProgram Options\nPosition Options\nBenefits\nEligibility\nJoin a Webinar\nH…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-88-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 953,
+              "bottom": 973,
+              "left": 1066,
+              "right": 1126,
+              "width": 60,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#benefits\">",
+            "nodeLabel": "Benefits",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-243-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 833,
+                    "bottom": 1111,
+                    "left": 1006,
+                    "right": 1230,
+                    "width": 224,
+                    "height": 278
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nProgram Options\nPosition Options\nBenefits\nEligibility\nJoin a Webinar\nH…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-89-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 977,
+              "bottom": 997,
+              "left": 1066,
+              "right": 1133,
+              "width": 67,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#eligibility\">",
+            "nodeLabel": "Eligibility",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-243-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 833,
+                    "bottom": 1111,
+                    "left": 1006,
+                    "right": 1230,
+                    "width": 224,
+                    "height": 278
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nProgram Options\nPosition Options\nBenefits\nEligibility\nJoin a Webinar\nH…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-90-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,4,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1001,
+              "bottom": 1021,
+              "left": 1066,
+              "right": 1174,
+              "width": 108,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#webinars\">",
+            "nodeLabel": "Join a Webinar",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-243-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 833,
+                    "bottom": 1111,
+                    "left": 1006,
+                    "right": 1230,
+                    "width": 224,
+                    "height": 278
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nProgram Options\nPosition Options\nBenefits\nEligibility\nJoin a Webinar\nH…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-91-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,5,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1025,
+              "bottom": 1045,
+              "left": 1066,
+              "right": 1167,
+              "width": 101,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#apply\">",
+            "nodeLabel": "How to Apply",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-243-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 833,
+                    "bottom": 1111,
+                    "left": 1006,
+                    "right": 1230,
+                    "width": 224,
+                    "height": 278
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nProgram Options\nPosition Options\nBenefits\nEligibility\nJoin a Webinar\nH…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-92-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,6,LI,0,A",
+            "selector": "div > ul > li > a.jump_link",
+            "boundingRect": {
+              "top": 1049,
+              "bottom": 1069,
+              "left": 1066,
+              "right": 1158,
+              "width": 92,
+              "height": 20
+            },
+            "snippet": "<a class=\"jump_link\" href=\"#contact\">",
+            "nodeLabel": "Get in Touch",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-243-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.row > div.col-lg-12 > div.field > div",
+                  "boundingRect": {
+                    "top": 833,
+                    "bottom": 1111,
+                    "left": 1006,
+                    "right": 1230,
+                    "width": 224,
+                    "height": 278
+                  },
+                  "snippet": "<div style=\"height: auto; margin-left: 10%; margin-bottom: 10px;\">",
+                  "nodeLabel": "Jump to:\nProgram Options\nPosition Options\nBenefits\nEligibility\nJoin a Webinar\nH…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-244-H2",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H2",
+            "selector": "div.row > div.col-lg-12 > div.field > h2#benefits",
+            "boundingRect": {
+              "top": 3744,
+              "bottom": 3787,
+              "left": 215,
+              "right": 1135,
+              "width": 920,
+              "height": 44
+            },
+            "snippet": "<h2 id=\"benefits\">",
+            "nodeLabel": "Serving with NCCC",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: benefits"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-245-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,6,DIV,0,DIV,0,DIV,2,DIV",
+                  "selector": "div.accordian > div.container > div.accordian-section > div#benefits",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<div id=\"benefits\" class=\"content-block collapse col-10\" aria-labelledby=\"benefits-heading\">",
+                  "nodeLabel": "\n    \n      During service, you will receive:\n\n\n\tBasic expenses, including comm…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-246-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "boundingRect": {
+              "top": 3166,
+              "bottom": 3470,
+              "left": 120,
+              "right": 660,
+              "width": 540,
+              "height": 304
+            },
+            "snippet": "<iframe width=\"854\" height=\"480\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/MXGTOyES0jA?autoplay=0&amp;start=0&amp;rel=0\">",
+            "nodeLabel": "div.col-lg-12 > div.field > div.video-embed-field-provider-youtube > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-247-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.col-lg-12 > div.field > div > h4",
+            "boundingRect": {
+              "top": 873,
+              "bottom": 895,
+              "left": 1046,
+              "right": 1190,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Jump to:",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-248-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.row > div.col-lg-12 > div.field > h4",
+            "boundingRect": {
+              "top": 5540,
+              "bottom": 5562,
+              "left": 120,
+              "right": 470,
+              "width": 350,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Ask Questions",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-249-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.row > div.col-lg-12 > div.field > h4",
+            "boundingRect": {
+              "top": 5540,
+              "bottom": 5562,
+              "left": 500,
+              "right": 850,
+              "width": 350,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Sign Up",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-250-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,10,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.row > div.col-lg-12 > div.field > h4",
+            "boundingRect": {
+              "top": 5540,
+              "bottom": 5562,
+              "left": 880,
+              "right": 1230,
+              "width": 350,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Application Resources",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "23-251-UL",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL",
+            "selector": "nav.navbar > div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav",
+            "boundingRect": {
+              "top": 34,
+              "bottom": 123,
+              "left": 304,
+              "right": 979,
+              "width": 675,
+              "height": 89
+            },
+            "snippet": "<ul class=\"navbar-nav\">",
+            "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "23-252-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,2,HEADER,0,NAV,1,DIV,1,DIV,0,UL,0,DIV",
+                  "selector": "div.col-xl-12 > div#navbarSupportedContent > ul.navbar-nav > div.menu-region",
+                  "boundingRect": {
+                    "top": 34,
+                    "bottom": 123,
+                    "left": 304,
+                    "right": 979,
+                    "width": 675,
+                    "height": 89
+                  },
+                  "snippet": "<div class=\"menu-region\">",
+                  "nodeLabel": "About\nServe\nPartner\nMembers &\nVolunteers\nGrantees &\nSponsors\nNewsroom\nContact"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

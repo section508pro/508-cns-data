@@ -1,0 +1,128 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-201-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SPAN",
+            "selector": "div.content > article > div > span.blog-post-date",
+            "boundingRect": {
+              "top": 1573,
+              "bottom": 1591,
+              "left": 30,
+              "right": 382,
+              "width": 352,
+              "height": 18
+            },
+            "snippet": "<span class=\"blog-post-date\">",
+            "nodeLabel": "Jun 08, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #7f7b82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-202-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.page-node-373641",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 8424,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 8424
+                  },
+                  "snippet": "<body class=\"page-node-373641 path-node node--type-blog d-theme-preceded\" data-aos-easing=\"ease\" data-aos-duration=\"1200\" data-aos-delay=\"0\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.page-node-373641"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-203-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,2,DIV,0,H4",
+            "selector": "article > div > div.field > h4",
+            "boundingRect": {
+              "top": 1713,
+              "bottom": 1735,
+              "left": 30,
+              "right": 382,
+              "width": 352,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "A Childhood Dream Come True ",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

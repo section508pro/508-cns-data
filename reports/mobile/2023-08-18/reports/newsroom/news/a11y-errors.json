@@ -1,0 +1,506 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-94-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 3366,
+              "bottom": 3449,
+              "left": 15,
+              "right": 396,
+              "width": 381,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/long-time-nevada-volunteer-honored-presidents-volu…\" hreflang=\"en\">",
+            "nodeLabel": "Long Time Nevada Volunteer Honored with President’s Volunteer Service Award",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-222-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 3529,
+              "bottom": 3545,
+              "left": 15,
+              "right": 108,
+              "width": 93,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 6, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-95-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 3620,
+              "bottom": 3731,
+              "left": 15,
+              "right": 359,
+              "width": 344,
+              "height": 111
+            },
+            "snippet": "<a href=\"/newsroom/press-release/nevada-michigan-americorps-announced-millions-new-…\" hreflang=\"en\">",
+            "nodeLabel": "From Nevada to Michigan, AmeriCorps Announced Millions in New Investments and H…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-223-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 3807,
+              "bottom": 3823,
+              "left": 15,
+              "right": 108,
+              "width": 93,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 5, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-96-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,9,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 3898,
+              "bottom": 3981,
+              "left": 15,
+              "right": 363,
+              "width": 348,
+              "height": 83
+            },
+            "snippet": "<a href=\"/newsroom/press-release/nevada-receives-7-million-americorps-investment-la…\" hreflang=\"en\">",
+            "nodeLabel": "Nevada Receives $7 Million AmeriCorps Investment, Las Vegas Volunteer Service C…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-224-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,9,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 4061,
+              "bottom": 4077,
+              "left": 15,
+              "right": 108,
+              "width": 93,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JULY 3, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-97-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,10,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 4152,
+              "bottom": 4263,
+              "left": 15,
+              "right": 378,
+              "width": 363,
+              "height": 111
+            },
+            "snippet": "<a href=\"/newsroom/speech/remarks-prepared-delivery-ceo-michael-d-smith-june-2023-a…\" hreflang=\"en\">",
+            "nodeLabel": "Remarks as Prepared for Delivery by CEO Michael D. Smith at the June 2023 Ameri…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-225-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,10,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 4339,
+              "bottom": 4355,
+              "left": 15,
+              "right": 120,
+              "width": 105,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JUNE 29, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-98-A",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,11,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div.content > div.views-field > h4.field-content > a",
+            "boundingRect": {
+              "top": 4430,
+              "bottom": 4540,
+              "left": 15,
+              "right": 391,
+              "width": 376,
+              "height": 111
+            },
+            "snippet": "<a href=\"/newsroom/press-release/americorps-invests-more-7-million-advance-equity-o…\" hreflang=\"en\">",
+            "nodeLabel": "AmeriCorps Invests More Than $7 Million to Advance Equity and Opportunity for A…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 16.5pt (22px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-226-DIV",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,11,DIV,0,DIV,1,DIV,0,DIV",
+            "selector": "div.card > div.content > div.views-field > div.field-content",
+            "boundingRect": {
+              "top": 4617,
+              "bottom": 4633,
+              "left": 15,
+              "right": 117,
+              "width": 102,
+              "height": 16
+            },
+            "snippet": "<div class=\"field-content\">",
+            "nodeLabel": "JUNE 21, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.09 (foreground color: #adb4be, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-221-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,1,DIV",
+                  "selector": "article > div > div.field > div.view-block-paragraph",
+                  "boundingRect": {
+                    "top": 1307,
+                    "bottom": 4945,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3638
+                  },
+                  "snippet": "<div class=\"view-block-paragraph paragraph-fullwidth white\">",
+                  "nodeLabel": "185,000 Americans to be Recruited Across the Nation for 9/11 and MLK Days of Se…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-227-H4",
+            "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.card > div.content > div.views-field > h4.field-content",
+            "boundingRect": {
+              "top": 728,
+              "bottom": 838,
+              "left": 15,
+              "right": 397,
+              "width": 382,
+              "height": 110
+            },
+            "snippet": "<h4 class=\"field-content\">",
+            "nodeLabel": "AmeriCorps Increases Minimum Living, Healthcare Allowances for Members Serving …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

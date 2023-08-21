@@ -1,8 +1,8 @@
 name: Mobile
 on:
   workflow_dispatch:  
-  schedule:
-    - cron: '00 08 * * *'  # At 08:00 UTC every day. (2am Denver time) 
+  #schedule:
+  #  - cron: '00 08 * * *'  # At 08:00 UTC every day. (2am Denver time) 
   
 jobs:
   build:
